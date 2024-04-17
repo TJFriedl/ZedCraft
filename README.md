@@ -1,6 +1,6 @@
 # ZedCraft
 
-![ZedCraft Logo](ZedCraft.PNG)
+![ZedCraft Logo](README/ZedCraft.PNG)
 
 ## Overview
 
