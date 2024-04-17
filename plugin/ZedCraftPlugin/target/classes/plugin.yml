@@ -1,0 +1,3 @@
+name: ZedCraftPlugin
+version: '1.0-SNAPSHOT'
+main: org.cpre488.zedcraftplugin.ZedCraftPlugin

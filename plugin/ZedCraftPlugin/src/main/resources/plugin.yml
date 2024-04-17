@@ -1,0 +1,3 @@
+name: ZedCraftPlugin
+version: '${project.version}'
+main: org.cpre488.zedcraftplugin.ZedCraftPlugin
