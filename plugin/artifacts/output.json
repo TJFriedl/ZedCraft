@@ -1,0 +1,1494 @@
+[
+    {
+        "name": "anvil_base.png",
+        "averageRGBA": [64, 64, 64, 255]
+    },
+    {
+        "name": "anvil_top_damaged_0.png",
+        "averageRGBA": [40, 37, 37, 159]
+    },
+    {
+        "name": "anvil_top_damaged_1.png",
+        "averageRGBA": [40, 37, 37, 159]
+    },
+    {
+        "name": "anvil_top_damaged_2.png",
+        "averageRGBA": [40, 37, 37, 159]
+    },
+    {
+        "name": "beacon.png",
+        "averageRGBA": [116, 221, 215, 255]
+    },
+    {
+        "name": "bedrock.png",
+        "averageRGBA": [83, 83, 83, 255]
+    },
+    {
+        "name": "bed_feet_end.png",
+        "averageRGBA": [57, 22, 12, 113]
+    },
+    {
+        "name": "bed_feet_side.png",
+        "averageRGBA": [52, 18, 10, 104]
+    },
+    {
+        "name": "bed_feet_top.png",
+        "averageRGBA": [142, 22, 22, 255]
+    },
+    {
+        "name": "bed_head_end.png",
+        "averageRGBA": [78, 71, 62, 113]
+    },
+    {
+        "name": "bed_head_side.png",
+        "averageRGBA": [61, 41, 34, 104]
+    },
+    {
+        "name": "bed_head_top.png",
+        "averageRGBA": [175, 116, 116, 255]
+    },
+    {
+        "name": "bookshelf.png",
+        "averageRGBA": [107, 88, 57, 255]
+    },
+    {
+        "name": "brewing_stand.png",
+        "averageRGBA": [58, 48, 37, 118]
+    },
+    {
+        "name": "brewing_stand_base.png",
+        "averageRGBA": [106, 106, 106, 255]
+    },
+    {
+        "name": "brick.png",
+        "averageRGBA": [146, 99, 86, 255]
+    },
+    {
+        "name": "cactus_bottom.png",
+        "averageRGBA": [124, 142, 94, 195]
+    },
+    {
+        "name": "cactus_side.png",
+        "averageRGBA": [12, 92, 22, 231]
+    },
+    {
+        "name": "cactus_top.png",
+        "averageRGBA": [10, 76, 18, 195]
+    },
+    {
+        "name": "cake_bottom.png",
+        "averageRGBA": [135, 68, 27, 195]
+    },
+    {
+        "name": "cake_inner.png",
+        "averageRGBA": [58, 24, 11, 111]
+    },
+    {
+        "name": "cake_side.png",
+        "averageRGBA": [82, 61, 49, 111]
+    },
+    {
+        "name": "cake_top.png",
+        "averageRGBA": [175, 157, 158, 195]
+    },
+    {
+        "name": "carrots_stage_0.png",
+        "averageRGBA": [0, 6, 0, 9]
+    },
+    {
+        "name": "carrots_stage_1.png",
+        "averageRGBA": [0, 17, 1, 23]
+    },
+    {
+        "name": "carrots_stage_2.png",
+        "averageRGBA": [0, 40, 3, 54]
+    },
+    {
+        "name": "carrots_stage_3.png",
+        "averageRGBA": [9, 56, 1, 111]
+    },
+    {
+        "name": "cauldron_bottom.png",
+        "averageRGBA": [14, 14, 14, 83]
+    },
+    {
+        "name": "cauldron_inner.png",
+        "averageRGBA": [55, 55, 55, 255]
+    },
+    {
+        "name": "cauldron_side.png",
+        "averageRGBA": [60, 60, 60, 243]
+    },
+    {
+        "name": "cauldron_top.png",
+        "averageRGBA": [43, 43, 43, 155]
+    },
+    {
+        "name": "clay.png",
+        "averageRGBA": [158, 164, 176, 255]
+    },
+    {
+        "name": "coal_block.png",
+        "averageRGBA": [18, 18, 18, 255]
+    },
+    {
+        "name": "coal_ore.png",
+        "averageRGBA": [115, 115, 115, 255]
+    },
+    {
+        "name": "coarse_dirt.png",
+        "averageRGBA": [119, 85, 59, 255]
+    },
+    {
+        "name": "cobblestone.png",
+        "averageRGBA": [122, 122, 122, 255]
+    },
+    {
+        "name": "cobblestone_mossy.png",
+        "averageRGBA": [103, 121, 103, 255]
+    },
+    {
+        "name": "cocoa_stage_0.png",
+        "averageRGBA": [25, 25, 11, 46]
+    },
+    {
+        "name": "cocoa_stage_1.png",
+        "averageRGBA": [47, 37, 17, 88]
+    },
+    {
+        "name": "cocoa_stage_2.png",
+        "averageRGBA": [75, 41, 15, 131]
+    },
+    {
+        "name": "command_block.png",
+        "averageRGBA": [178, 137, 111, 255]
+    },
+    {
+        "name": "comparator_off.png",
+        "averageRGBA": [156, 150, 149, 255]
+    },
+    {
+        "name": "comparator_on.png",
+        "averageRGBA": [165, 149, 148, 255]
+    },
+    {
+        "name": "crafting_table_front.png",
+        "averageRGBA": [115, 95, 63, 255]
+    },
+    {
+        "name": "crafting_table_side.png",
+        "averageRGBA": [118, 95, 60, 255]
+    },
+    {
+        "name": "crafting_table_top.png",
+        "averageRGBA": [107, 71, 42, 255]
+    },
+    {
+        "name": "daylight_detector_inverted_top.png",
+        "averageRGBA": [106, 109, 112, 255]
+    },
+    {
+        "name": "daylight_detector_side.png",
+        "averageRGBA": [66, 55, 35, 255]
+    },
+    {
+        "name": "daylight_detector_top.png",
+        "averageRGBA": [130, 116, 94, 255]
+    },
+    {
+        "name": "deadbush.png",
+        "averageRGBA": [39, 25, 8, 81]
+    },
+    {
+        "name": "destroy_stage_0.png",
+        "averageRGBA": [252, 252, 252, 4]
+    },
+    {
+        "name": "destroy_stage_1.png",
+        "averageRGBA": [248, 248, 248, 10]
+    },
+    {
+        "name": "destroy_stage_2.png",
+        "averageRGBA": [243, 243, 243, 18]
+    },
+    {
+        "name": "destroy_stage_3.png",
+        "averageRGBA": [238, 238, 238, 28]
+    },
+    {
+        "name": "destroy_stage_4.png",
+        "averageRGBA": [230, 230, 230, 41]
+    },
+    {
+        "name": "destroy_stage_5.png",
+        "averageRGBA": [222, 222, 222, 55]
+    },
+    {
+        "name": "destroy_stage_6.png",
+        "averageRGBA": [212, 212, 212, 70]
+    },
+    {
+        "name": "destroy_stage_7.png",
+        "averageRGBA": [195, 195, 195, 100]
+    },
+    {
+        "name": "destroy_stage_8.png",
+        "averageRGBA": [177, 177, 177, 128]
+    },
+    {
+        "name": "destroy_stage_9.png",
+        "averageRGBA": [167, 167, 167, 144]
+    },
+    {
+        "name": "diamond_block.png",
+        "averageRGBA": [97, 219, 213, 255]
+    },
+    {
+        "name": "diamond_ore.png",
+        "averageRGBA": [129, 140, 143, 255]
+    },
+    {
+        "name": "dirt.png",
+        "averageRGBA": [134, 96, 67, 255]
+    },
+    {
+        "name": "dirt_podzol_side.png",
+        "averageRGBA": [122, 87, 57, 255]
+    },
+    {
+        "name": "dirt_podzol_top.png",
+        "averageRGBA": [90, 63, 28, 255]
+    },
+    {
+        "name": "dispenser_front_horizontal.png",
+        "averageRGBA": [116, 116, 116, 255]
+    },
+    {
+        "name": "dispenser_front_vertical.png",
+        "averageRGBA": [86, 86, 86, 255]
+    },
+    {
+        "name": "door_acacia_lower.png",
+        "averageRGBA": [111, 63, 39, 183]
+    },
+    {
+        "name": "door_acacia_upper.png",
+        "averageRGBA": [116, 66, 42, 183]
+    },
+    {
+        "name": "door_birch_lower.png",
+        "averageRGBA": [198, 189, 141, 255]
+    },
+    {
+        "name": "door_birch_upper.png",
+        "averageRGBA": [217, 210, 179, 255]
+    },
+    {
+        "name": "door_dark_oak_lower.png",
+        "averageRGBA": [65, 44, 23, 255]
+    },
+    {
+        "name": "door_dark_oak_upper.png",
+        "averageRGBA": [69, 47, 25, 255]
+    },
+    {
+        "name": "door_iron_lower.png",
+        "averageRGBA": [163, 163, 163, 255]
+    },
+    {
+        "name": "door_iron_upper.png",
+        "averageRGBA": [151, 151, 151, 207]
+    },
+    {
+        "name": "door_jungle_lower.png",
+        "averageRGBA": [133, 97, 70, 231]
+    },
+    {
+        "name": "door_jungle_upper.png",
+        "averageRGBA": [122, 92, 69, 207]
+    },
+    {
+        "name": "door_spruce_lower.png",
+        "averageRGBA": [97, 75, 49, 255]
+    },
+    {
+        "name": "door_spruce_upper.png",
+        "averageRGBA": [96, 74, 49, 255]
+    },
+    {
+        "name": "door_wood_lower.png",
+        "averageRGBA": [134, 101, 50, 255]
+    },
+    {
+        "name": "door_wood_upper.png",
+        "averageRGBA": [109, 83, 42, 207]
+    },
+    {
+        "name": "double_plant_fern_bottom.png",
+        "averageRGBA": [79, 79, 79, 158]
+    },
+    {
+        "name": "double_plant_fern_top.png",
+        "averageRGBA": [68, 68, 68, 122]
+    },
+    {
+        "name": "double_plant_grass_bottom.png",
+        "averageRGBA": [107, 113, 104, 138]
+    },
+    {
+        "name": "double_plant_grass_top.png",
+        "averageRGBA": [97, 101, 96, 92]
+    },
+    {
+        "name": "double_plant_paeonia_bottom.png",
+        "averageRGBA": [52, 64, 36, 147]
+    },
+    {
+        "name": "double_plant_paeonia_top.png",
+        "averageRGBA": [104, 95, 89, 129]
+    },
+    {
+        "name": "double_plant_rose_bottom.png",
+        "averageRGBA": [51, 50, 2, 185]
+    },
+    {
+        "name": "double_plant_rose_top.png",
+        "averageRGBA": [59, 52, 3, 107]
+    },
+    {
+        "name": "double_plant_sunflower_back.png",
+        "averageRGBA": [34, 63, 19, 51]
+    },
+    {
+        "name": "double_plant_sunflower_bottom.png",
+        "averageRGBA": [42, 63, 38, 51]
+    },
+    {
+        "name": "double_plant_sunflower_front.png",
+        "averageRGBA": [103, 100, 19, 51]
+    },
+    {
+        "name": "double_plant_sunflower_top.png",
+        "averageRGBA": [42, 66, 37, 26]
+    },
+    {
+        "name": "double_plant_syringa_bottom.png",
+        "averageRGBA": [69, 84, 64, 86]
+    },
+    {
+        "name": "double_plant_syringa_top.png",
+        "averageRGBA": [75, 88, 69, 83]
+    },
+    {
+        "name": "dragon_egg.png",
+        "averageRGBA": [12, 9, 15, 255]
+    },
+    {
+        "name": "dropper_front_horizontal.png",
+        "averageRGBA": [116, 116, 116, 255]
+    },
+    {
+        "name": "dropper_front_vertical.png",
+        "averageRGBA": [86, 86, 86, 255]
+    },
+    {
+        "name": "emerald_block.png",
+        "averageRGBA": [81, 217, 117, 255]
+    },
+    {
+        "name": "emerald_ore.png",
+        "averageRGBA": [109, 128, 116, 255]
+    },
+    {
+        "name": "enchanting_table_bottom.png",
+        "averageRGBA": [18, 16, 27, 255]
+    },
+    {
+        "name": "enchanting_table_side.png",
+        "averageRGBA": [31, 32, 34, 191]
+    },
+    {
+        "name": "enchanting_table_top.png",
+        "averageRGBA": [103, 64, 59, 255]
+    },
+    {
+        "name": "endframe_eye.png",
+        "averageRGBA": [15, 27, 25, 95]
+    },
+    {
+        "name": "endframe_side.png",
+        "averageRGBA": [119, 130, 100, 207]
+    },
+    {
+        "name": "endframe_top.png",
+        "averageRGBA": [89, 117, 96, 255]
+    },
+    {
+        "name": "end_stone.png",
+        "averageRGBA": [221, 223, 165, 255]
+    },
+    {
+        "name": "farmland_dry.png",
+        "averageRGBA": [115, 75, 45, 255]
+    },
+    {
+        "name": "farmland_wet.png",
+        "averageRGBA": [75, 40, 13, 255]
+    },
+    {
+        "name": "fern.png",
+        "averageRGBA": [37, 37, 37, 78]
+    },
+    {
+        "name": "fire_layer_0.png",
+        "averageRGBA": [202, 127, 69, 139]
+    },
+    {
+        "name": "fire_layer_1.png",
+        "averageRGBA": [197, 115, 52, 147]
+    },
+    {
+        "name": "flower_allium.png",
+        "averageRGBA": [45, 46, 63, 38]
+    },
+    {
+        "name": "flower_blue_orchid.png",
+        "averageRGBA": [17, 61, 64, 45]
+    },
+    {
+        "name": "flower_dandelion.png",
+        "averageRGBA": [13, 19, 0, 30]
+    },
+    {
+        "name": "flower_houstonia.png",
+        "averageRGBA": [50, 68, 70, 42]
+    },
+    {
+        "name": "flower_oxeye_daisy.png",
+        "averageRGBA": [53, 70, 47, 43]
+    },
+    {
+        "name": "flower_paeonia.png",
+        "averageRGBA": [54, 57, 61, 61]
+    },
+    {
+        "name": "flower_pot.png",
+        "averageRGBA": [23, 12, 10, 49]
+    },
+    {
+        "name": "flower_rose.png",
+        "averageRGBA": [18, 11, 1, 34]
+    },
+    {
+        "name": "flower_tulip_orange.png",
+        "averageRGBA": [44, 59, 40, 49]
+    },
+    {
+        "name": "flower_tulip_pink.png",
+        "averageRGBA": [44, 62, 44, 47]
+    },
+    {
+        "name": "flower_tulip_red.png",
+        "averageRGBA": [46, 60, 44, 48]
+    },
+    {
+        "name": "flower_tulip_white.png",
+        "averageRGBA": [44, 63, 44, 48]
+    },
+    {
+        "name": "furnace_front_off.png",
+        "averageRGBA": [78, 78, 78, 255]
+    },
+    {
+        "name": "furnace_front_on.png",
+        "averageRGBA": [125, 102, 85, 255]
+    },
+    {
+        "name": "furnace_side.png",
+        "averageRGBA": [113, 113, 113, 255]
+    },
+    {
+        "name": "furnace_top.png",
+        "averageRGBA": [96, 96, 96, 255]
+    },
+    {
+        "name": "glass.png",
+        "averageRGBA": [60, 66, 67, 70]
+    },
+    {
+        "name": "glass_black.png",
+        "averageRGBA": [25, 25, 25, 123]
+    },
+    {
+        "name": "glass_blue.png",
+        "averageRGBA": [51, 76, 178, 123]
+    },
+    {
+        "name": "glass_brown.png",
+        "averageRGBA": [102, 76, 51, 123]
+    },
+    {
+        "name": "glass_cyan.png",
+        "averageRGBA": [76, 127, 153, 123]
+    },
+    {
+        "name": "glass_gray.png",
+        "averageRGBA": [76, 76, 76, 123]
+    },
+    {
+        "name": "glass_green.png",
+        "averageRGBA": [102, 127, 51, 123]
+    },
+    {
+        "name": "glass_light_blue.png",
+        "averageRGBA": [102, 153, 216, 123]
+    },
+    {
+        "name": "glass_lime.png",
+        "averageRGBA": [127, 204, 25, 123]
+    },
+    {
+        "name": "glass_magenta.png",
+        "averageRGBA": [178, 76, 216, 123]
+    },
+    {
+        "name": "glass_orange.png",
+        "averageRGBA": [216, 127, 51, 123]
+    },
+    {
+        "name": "glass_pane_top.png",
+        "averageRGBA": [26, 29, 30, 31]
+    },
+    {
+        "name": "glass_pane_top_black.png",
+        "averageRGBA": [3, 3, 3, 28]
+    },
+    {
+        "name": "glass_pane_top_blue.png",
+        "averageRGBA": [6, 9, 21, 28]
+    },
+    {
+        "name": "glass_pane_top_brown.png",
+        "averageRGBA": [12, 9, 6, 28]
+    },
+    {
+        "name": "glass_pane_top_cyan.png",
+        "averageRGBA": [9, 15, 18, 28]
+    },
+    {
+        "name": "glass_pane_top_gray.png",
+        "averageRGBA": [9, 9, 9, 28]
+    },
+    {
+        "name": "glass_pane_top_green.png",
+        "averageRGBA": [12, 15, 6, 28]
+    },
+    {
+        "name": "glass_pane_top_light_blue.png",
+        "averageRGBA": [12, 18, 26, 28]
+    },
+    {
+        "name": "glass_pane_top_lime.png",
+        "averageRGBA": [15, 24, 3, 28]
+    },
+    {
+        "name": "glass_pane_top_magenta.png",
+        "averageRGBA": [21, 9, 26, 28]
+    },
+    {
+        "name": "glass_pane_top_orange.png",
+        "averageRGBA": [26, 15, 6, 28]
+    },
+    {
+        "name": "glass_pane_top_pink.png",
+        "averageRGBA": [29, 15, 19, 28]
+    },
+    {
+        "name": "glass_pane_top_purple.png",
+        "averageRGBA": [15, 7, 21, 28]
+    },
+    {
+        "name": "glass_pane_top_red.png",
+        "averageRGBA": [18, 6, 6, 28]
+    },
+    {
+        "name": "glass_pane_top_silver.png",
+        "averageRGBA": [18, 18, 18, 28]
+    },
+    {
+        "name": "glass_pane_top_white.png",
+        "averageRGBA": [30, 30, 30, 28]
+    },
+    {
+        "name": "glass_pane_top_yellow.png",
+        "averageRGBA": [27, 27, 6, 28]
+    },
+    {
+        "name": "glass_pink.png",
+        "averageRGBA": [242, 127, 165, 123]
+    },
+    {
+        "name": "glass_purple.png",
+        "averageRGBA": [127, 63, 178, 123]
+    },
+    {
+        "name": "glass_red.png",
+        "averageRGBA": [153, 51, 51, 123]
+    },
+    {
+        "name": "glass_silver.png",
+        "averageRGBA": [153, 153, 153, 123]
+    },
+    {
+        "name": "glass_white.png",
+        "averageRGBA": [255, 255, 255, 123]
+    },
+    {
+        "name": "glass_yellow.png",
+        "averageRGBA": [229, 229, 51, 123]
+    },
+    {
+        "name": "glowstone.png",
+        "averageRGBA": [143, 118, 69, 255]
+    },
+    {
+        "name": "gold_block.png",
+        "averageRGBA": [249, 236, 78, 255]
+    },
+    {
+        "name": "gold_ore.png",
+        "averageRGBA": [143, 139, 124, 255]
+    },
+    {
+        "name": "grass_side.png",
+        "averageRGBA": [126, 107, 65, 255]
+    },
+    {
+        "name": "grass_side_overlay.png",
+        "averageRGBA": [25, 25, 25, 44]
+    },
+    {
+        "name": "grass_side_snowed.png",
+        "averageRGBA": [149, 120, 97, 255]
+    },
+    {
+        "name": "grass_top.png",
+        "averageRGBA": [147, 147, 147, 255]
+    },
+    {
+        "name": "gravel.png",
+        "averageRGBA": [126, 124, 122, 255]
+    },
+    {
+        "name": "hardened_clay.png",
+        "averageRGBA": [150, 92, 66, 255]
+    },
+    {
+        "name": "hardened_clay_stained_black.png",
+        "averageRGBA": [37, 22, 16, 255]
+    },
+    {
+        "name": "hardened_clay_stained_blue.png",
+        "averageRGBA": [74, 59, 91, 255]
+    },
+    {
+        "name": "hardened_clay_stained_brown.png",
+        "averageRGBA": [77, 51, 35, 255]
+    },
+    {
+        "name": "hardened_clay_stained_cyan.png",
+        "averageRGBA": [86, 91, 91, 255]
+    },
+    {
+        "name": "hardened_clay_stained_gray.png",
+        "averageRGBA": [57, 42, 35, 255]
+    },
+    {
+        "name": "hardened_clay_stained_green.png",
+        "averageRGBA": [76, 83, 42, 255]
+    },
+    {
+        "name": "hardened_clay_stained_light_blue.png",
+        "averageRGBA": [113, 108, 137, 255]
+    },
+    {
+        "name": "hardened_clay_stained_lime.png",
+        "averageRGBA": [103, 117, 52, 255]
+    },
+    {
+        "name": "hardened_clay_stained_magenta.png",
+        "averageRGBA": [149, 88, 108, 255]
+    },
+    {
+        "name": "hardened_clay_stained_orange.png",
+        "averageRGBA": [161, 83, 37, 255]
+    },
+    {
+        "name": "hardened_clay_stained_pink.png",
+        "averageRGBA": [161, 78, 78, 255]
+    },
+    {
+        "name": "hardened_clay_stained_purple.png",
+        "averageRGBA": [118, 70, 86, 255]
+    },
+    {
+        "name": "hardened_clay_stained_red.png",
+        "averageRGBA": [143, 61, 46, 255]
+    },
+    {
+        "name": "hardened_clay_stained_silver.png",
+        "averageRGBA": [135, 106, 97, 255]
+    },
+    {
+        "name": "hardened_clay_stained_white.png",
+        "averageRGBA": [209, 178, 161, 255]
+    },
+    {
+        "name": "hardened_clay_stained_yellow.png",
+        "averageRGBA": [186, 133, 35, 255]
+    },
+    {
+        "name": "hay_block_side.png",
+        "averageRGBA": [157, 116, 18, 255]
+    },
+    {
+        "name": "hay_block_top.png",
+        "averageRGBA": [168, 139, 16, 255]
+    },
+    {
+        "name": "hopper_inside.png",
+        "averageRGBA": [55, 55, 55, 255]
+    },
+    {
+        "name": "hopper_outside.png",
+        "averageRGBA": [62, 62, 62, 255]
+    },
+    {
+        "name": "hopper_top.png",
+        "averageRGBA": [41, 41, 41, 155]
+    },
+    {
+        "name": "ice.png",
+        "averageRGBA": [125, 173, 255, 159]
+    },
+    {
+        "name": "ice_packed.png",
+        "averageRGBA": [165, 194, 245, 255]
+    },
+    {
+        "name": "iron_bars.png",
+        "averageRGBA": [49, 49, 48, 115]
+    },
+    {
+        "name": "iron_block.png",
+        "averageRGBA": [219, 219, 219, 255]
+    },
+    {
+        "name": "iron_ore.png",
+        "averageRGBA": [135, 130, 126, 255]
+    },
+    {
+        "name": "iron_trapdoor.png",
+        "averageRGBA": [171, 171, 171, 219]
+    },
+    {
+        "name": "itemframe_background.png",
+        "averageRGBA": [118, 68, 44, 255]
+    },
+    {
+        "name": "jukebox_side.png",
+        "averageRGBA": [100, 67, 50, 255]
+    },
+    {
+        "name": "jukebox_top.png",
+        "averageRGBA": [107, 73, 55, 255]
+    },
+    {
+        "name": "ladder.png",
+        "averageRGBA": [68, 53, 29, 143]
+    },
+    {
+        "name": "lapis_block.png",
+        "averageRGBA": [38, 67, 137, 255]
+    },
+    {
+        "name": "lapis_ore.png",
+        "averageRGBA": [102, 112, 134, 255]
+    },
+    {
+        "name": "lava_flow.png",
+        "averageRGBA": [207, 91, 19, 255]
+    },
+    {
+        "name": "lava_still.png",
+        "averageRGBA": [212, 90, 18, 255]
+    },
+    {
+        "name": "leaves_acacia.png",
+        "averageRGBA": [81, 81, 81, 154]
+    },
+    {
+        "name": "leaves_big_oak.png",
+        "averageRGBA": [81, 81, 81, 154]
+    },
+    {
+        "name": "leaves_birch.png",
+        "averageRGBA": [81, 81, 81, 154]
+    },
+    {
+        "name": "leaves_jungle.png",
+        "averageRGBA": [114, 112, 105, 201]
+    },
+    {
+        "name": "leaves_oak.png",
+        "averageRGBA": [81, 81, 81, 154]
+    },
+    {
+        "name": "leaves_spruce.png",
+        "averageRGBA": [75, 75, 75, 165]
+    },
+    {
+        "name": "lever.png",
+        "averageRGBA": [8, 6, 5, 19]
+    },
+    {
+        "name": "log_acacia.png",
+        "averageRGBA": [105, 99, 89, 255]
+    },
+    {
+        "name": "log_acacia_top.png",
+        "averageRGBA": [154, 91, 64, 255]
+    },
+    {
+        "name": "log_big_oak.png",
+        "averageRGBA": [52, 40, 23, 255]
+    },
+    {
+        "name": "log_big_oak_top.png",
+        "averageRGBA": [78, 62, 41, 255]
+    },
+    {
+        "name": "log_birch.png",
+        "averageRGBA": [206, 206, 201, 255]
+    },
+    {
+        "name": "log_birch_top.png",
+        "averageRGBA": [184, 166, 121, 255]
+    },
+    {
+        "name": "log_jungle.png",
+        "averageRGBA": [87, 67, 26, 255]
+    },
+    {
+        "name": "log_jungle_top.png",
+        "averageRGBA": [153, 118, 73, 255]
+    },
+    {
+        "name": "log_oak.png",
+        "averageRGBA": [102, 81, 49, 255]
+    },
+    {
+        "name": "log_oak_top.png",
+        "averageRGBA": [154, 125, 77, 255]
+    },
+    {
+        "name": "log_spruce.png",
+        "averageRGBA": [45, 28, 12, 255]
+    },
+    {
+        "name": "log_spruce_top.png",
+        "averageRGBA": [104, 81, 48, 255]
+    },
+    {
+        "name": "melon_side.png",
+        "averageRGBA": [141, 145, 36, 255]
+    },
+    {
+        "name": "melon_stem_connected.png",
+        "averageRGBA": [17, 17, 17, 32]
+    },
+    {
+        "name": "melon_stem_disconnected.png",
+        "averageRGBA": [21, 21, 21, 34]
+    },
+    {
+        "name": "melon_top.png",
+        "averageRGBA": [151, 153, 36, 255]
+    },
+    {
+        "name": "mob_spawner.png",
+        "averageRGBA": [16, 24, 29, 155]
+    },
+    {
+        "name": "mushroom_block_inside.png",
+        "averageRGBA": [202, 171, 120, 255]
+    },
+    {
+        "name": "mushroom_block_skin_brown.png",
+        "averageRGBA": [141, 106, 83, 255]
+    },
+    {
+        "name": "mushroom_block_skin_red.png",
+        "averageRGBA": [182, 37, 36, 255]
+    },
+    {
+        "name": "mushroom_block_skin_stem.png",
+        "averageRGBA": [207, 204, 194, 255]
+    },
+    {
+        "name": "mushroom_brown.png",
+        "averageRGBA": [14, 10, 8, 25]
+    },
+    {
+        "name": "mushroom_red.png",
+        "averageRGBA": [25, 7, 7, 33]
+    },
+    {
+        "name": "mycelium_side.png",
+        "averageRGBA": [113, 88, 73, 255]
+    },
+    {
+        "name": "mycelium_top.png",
+        "averageRGBA": [111, 99, 105, 255]
+    },
+    {
+        "name": "netherrack.png",
+        "averageRGBA": [111, 54, 52, 255]
+    },
+    {
+        "name": "nether_brick.png",
+        "averageRGBA": [44, 22, 26, 255]
+    },
+    {
+        "name": "nether_wart_stage_0.png",
+        "averageRGBA": [17, 2, 5, 42]
+    },
+    {
+        "name": "nether_wart_stage_1.png",
+        "averageRGBA": [51, 7, 10, 120]
+    },
+    {
+        "name": "nether_wart_stage_2.png",
+        "averageRGBA": [89, 14, 13, 204]
+    },
+    {
+        "name": "noteblock.png",
+        "averageRGBA": [100, 67, 50, 255]
+    },
+    {
+        "name": "obsidian.png",
+        "averageRGBA": [20, 18, 29, 255]
+    },
+    {
+        "name": "piston_bottom.png",
+        "averageRGBA": [96, 96, 96, 255]
+    },
+    {
+        "name": "piston_inner.png",
+        "averageRGBA": [96, 96, 96, 255]
+    },
+    {
+        "name": "piston_side.png",
+        "averageRGBA": [106, 102, 95, 255]
+    },
+    {
+        "name": "piston_top_normal.png",
+        "averageRGBA": [153, 129, 89, 255]
+    },
+    {
+        "name": "piston_top_sticky.png",
+        "averageRGBA": [141, 146, 99, 255]
+    },
+    {
+        "name": "planks_acacia.png",
+        "averageRGBA": [169, 91, 51, 255]
+    },
+    {
+        "name": "planks_big_oak.png",
+        "averageRGBA": [61, 39, 18, 255]
+    },
+    {
+        "name": "planks_birch.png",
+        "averageRGBA": [195, 179, 123, 255]
+    },
+    {
+        "name": "planks_jungle.png",
+        "averageRGBA": [154, 110, 77, 255]
+    },
+    {
+        "name": "planks_oak.png",
+        "averageRGBA": [156, 127, 78, 255]
+    },
+    {
+        "name": "planks_spruce.png",
+        "averageRGBA": [103, 77, 46, 255]
+    },
+    {
+        "name": "portal.png",
+        "averageRGBA": [87, 10, 191, 191]
+    },
+    {
+        "name": "potatoes_stage_0.png",
+        "averageRGBA": [0, 6, 0, 9]
+    },
+    {
+        "name": "potatoes_stage_1.png",
+        "averageRGBA": [0, 17, 1, 23]
+    },
+    {
+        "name": "potatoes_stage_2.png",
+        "averageRGBA": [0, 40, 3, 54]
+    },
+    {
+        "name": "potatoes_stage_3.png",
+        "averageRGBA": [14, 70, 14, 105]
+    },
+    {
+        "name": "prismarine_bricks.png",
+        "averageRGBA": [99, 160, 143, 255]
+    },
+    {
+        "name": "prismarine_dark.png",
+        "averageRGBA": [59, 87, 75, 255]
+    },
+    {
+        "name": "prismarine_rough.png",
+        "averageRGBA": [99, 152, 141, 255]
+    },
+    {
+        "name": "pumpkin_face_off.png",
+        "averageRGBA": [142, 76, 12, 255]
+    },
+    {
+        "name": "pumpkin_face_on.png",
+        "averageRGBA": [185, 133, 28, 255]
+    },
+    {
+        "name": "pumpkin_side.png",
+        "averageRGBA": [197, 120, 23, 255]
+    },
+    {
+        "name": "pumpkin_stem_connected.png",
+        "averageRGBA": [17, 17, 17, 32]
+    },
+    {
+        "name": "pumpkin_stem_disconnected.png",
+        "averageRGBA": [21, 21, 21, 34]
+    },
+    {
+        "name": "pumpkin_top.png",
+        "averageRGBA": [192, 118, 21, 255]
+    },
+    {
+        "name": "quartz_block_bottom.png",
+        "averageRGBA": [231, 228, 219, 255]
+    },
+    {
+        "name": "quartz_block_chiseled.png",
+        "averageRGBA": [231, 228, 220, 255]
+    },
+    {
+        "name": "quartz_block_chiseled_top.png",
+        "averageRGBA": [231, 228, 219, 255]
+    },
+    {
+        "name": "quartz_block_lines.png",
+        "averageRGBA": [231, 227, 219, 255]
+    },
+    {
+        "name": "quartz_block_lines_top.png",
+        "averageRGBA": [232, 229, 221, 255]
+    },
+    {
+        "name": "quartz_block_side.png",
+        "averageRGBA": [236, 233, 226, 255]
+    },
+    {
+        "name": "quartz_block_top.png",
+        "averageRGBA": [236, 233, 226, 255]
+    },
+    {
+        "name": "quartz_ore.png",
+        "averageRGBA": [125, 84, 79, 255]
+    },
+    {
+        "name": "rail_activator.png",
+        "averageRGBA": [77, 61, 46, 155]
+    },
+    {
+        "name": "rail_activator_powered.png",
+        "averageRGBA": [99, 59, 45, 155]
+    },
+    {
+        "name": "rail_detector.png",
+        "averageRGBA": [73, 61, 54, 155]
+    },
+    {
+        "name": "rail_detector_powered.png",
+        "averageRGBA": [83, 56, 49, 155]
+    },
+    {
+        "name": "rail_golden.png",
+        "averageRGBA": [88, 72, 48, 171]
+    },
+    {
+        "name": "rail_golden_powered.png",
+        "averageRGBA": [103, 70, 47, 171]
+    },
+    {
+        "name": "rail_normal.png",
+        "averageRGBA": [68, 61, 49, 143]
+    },
+    {
+        "name": "rail_normal_turned.png",
+        "averageRGBA": [50, 45, 36, 107]
+    },
+    {
+        "name": "redstone_block.png",
+        "averageRGBA": [171, 27, 9, 255]
+    },
+    {
+        "name": "redstone_dust_cross.png",
+        "averageRGBA": [50, 50, 50, 53]
+    },
+    {
+        "name": "redstone_dust_cross_overlay.png",
+        "averageRGBA": [0, 0, 0, 0]
+    },
+    {
+        "name": "redstone_dust_line.png",
+        "averageRGBA": [18, 18, 18, 19]
+    },
+    {
+        "name": "redstone_dust_line_overlay.png",
+        "averageRGBA": [0, 0, 0, 0]
+    },
+    {
+        "name": "redstone_lamp_off.png",
+        "averageRGBA": [70, 43, 26, 255]
+    },
+    {
+        "name": "redstone_lamp_on.png",
+        "averageRGBA": [119, 89, 55, 255]
+    },
+    {
+        "name": "redstone_ore.png",
+        "averageRGBA": [132, 107, 107, 255]
+    },
+    {
+        "name": "redstone_torch_off.png",
+        "averageRGBA": [7, 4, 2, 19]
+    },
+    {
+        "name": "redstone_torch_on.png",
+        "averageRGBA": [17, 7, 4, 25]
+    },
+    {
+        "name": "red_sand.png",
+        "averageRGBA": [169, 88, 33, 255]
+    },
+    {
+        "name": "red_sandstone_bottom.png",
+        "averageRGBA": [162, 82, 27, 255]
+    },
+    {
+        "name": "red_sandstone_carved.png",
+        "averageRGBA": [162, 82, 27, 255]
+    },
+    {
+        "name": "red_sandstone_normal.png",
+        "averageRGBA": [165, 84, 29, 255]
+    },
+    {
+        "name": "red_sandstone_smooth.png",
+        "averageRGBA": [168, 85, 30, 255]
+    },
+    {
+        "name": "red_sandstone_top.png",
+        "averageRGBA": [166, 85, 29, 255]
+    },
+    {
+        "name": "reeds.png",
+        "averageRGBA": [81, 106, 55, 140]
+    },
+    {
+        "name": "repeater_off.png",
+        "averageRGBA": [151, 147, 147, 255]
+    },
+    {
+        "name": "repeater_on.png",
+        "averageRGBA": [160, 147, 147, 255]
+    },
+    {
+        "name": "sand.png",
+        "averageRGBA": [219, 211, 160, 255]
+    },
+    {
+        "name": "sandstone_bottom.png",
+        "averageRGBA": [212, 205, 148, 255]
+    },
+    {
+        "name": "sandstone_carved.png",
+        "averageRGBA": [215, 208, 154, 255]
+    },
+    {
+        "name": "sandstone_normal.png",
+        "averageRGBA": [216, 209, 157, 255]
+    },
+    {
+        "name": "sandstone_smooth.png",
+        "averageRGBA": [219, 211, 161, 255]
+    },
+    {
+        "name": "sandstone_top.png",
+        "averageRGBA": [218, 210, 158, 255]
+    },
+    {
+        "name": "sapling_acacia.png",
+        "averageRGBA": [41, 45, 8, 75]
+    },
+    {
+        "name": "sapling_birch.png",
+        "averageRGBA": [50, 63, 35, 107]
+    },
+    {
+        "name": "sapling_jungle.png",
+        "averageRGBA": [16, 28, 6, 85]
+    },
+    {
+        "name": "sapling_oak.png",
+        "averageRGBA": [30, 43, 15, 107]
+    },
+    {
+        "name": "sapling_roofed_oak.png",
+        "averageRGBA": [31, 50, 16, 100]
+    },
+    {
+        "name": "sapling_spruce.png",
+        "averageRGBA": [16, 19, 11, 83]
+    },
+    {
+        "name": "sea_lantern.png",
+        "averageRGBA": [172, 199, 190, 255]
+    },
+    {
+        "name": "slime.png",
+        "averageRGBA": [120, 200, 101, 188]
+    },
+    {
+        "name": "snow.png",
+        "averageRGBA": [239, 251, 251, 255]
+    },
+    {
+        "name": "soul_sand.png",
+        "averageRGBA": [84, 64, 51, 255]
+    },
+    {
+        "name": "sponge.png",
+        "averageRGBA": [194, 195, 84, 255]
+    },
+    {
+        "name": "sponge_wet.png",
+        "averageRGBA": [160, 158, 63, 255]
+    },
+    {
+        "name": "stone.png",
+        "averageRGBA": [125, 125, 125, 255]
+    },
+    {
+        "name": "stonebrick.png",
+        "averageRGBA": [122, 122, 122, 255]
+    },
+    {
+        "name": "stonebrick_carved.png",
+        "averageRGBA": [118, 118, 118, 255]
+    },
+    {
+        "name": "stonebrick_cracked.png",
+        "averageRGBA": [118, 118, 118, 255]
+    },
+    {
+        "name": "stonebrick_mossy.png",
+        "averageRGBA": [114, 119, 106, 255]
+    },
+    {
+        "name": "stone_andesite.png",
+        "averageRGBA": [130, 131, 131, 255]
+    },
+    {
+        "name": "stone_andesite_smooth.png",
+        "averageRGBA": [133, 133, 134, 255]
+    },
+    {
+        "name": "stone_diorite.png",
+        "averageRGBA": [179, 179, 182, 255]
+    },
+    {
+        "name": "stone_diorite_smooth.png",
+        "averageRGBA": [183, 183, 185, 255]
+    },
+    {
+        "name": "stone_granite.png",
+        "averageRGBA": [153, 113, 98, 255]
+    },
+    {
+        "name": "stone_granite_smooth.png",
+        "averageRGBA": [159, 114, 98, 255]
+    },
+    {
+        "name": "stone_slab_side.png",
+        "averageRGBA": [166, 166, 166, 255]
+    },
+    {
+        "name": "stone_slab_top.png",
+        "averageRGBA": [159, 159, 159, 255]
+    },
+    {
+        "name": "tallgrass.png",
+        "averageRGBA": [86, 86, 86, 162]
+    },
+    {
+        "name": "tnt_bottom.png",
+        "averageRGBA": [170, 77, 51, 255]
+    },
+    {
+        "name": "tnt_side.png",
+        "averageRGBA": [169, 92, 71, 255]
+    },
+    {
+        "name": "tnt_top.png",
+        "averageRGBA": [130, 65, 47, 255]
+    },
+    {
+        "name": "torch_on.png",
+        "averageRGBA": [10, 8, 4, 19]
+    },
+    {
+        "name": "trapdoor.png",
+        "averageRGBA": [144, 116, 75, 219]
+    },
+    {
+        "name": "trip_wire.png",
+        "averageRGBA": [21, 21, 21, 27]
+    },
+    {
+        "name": "trip_wire_source.png",
+        "averageRGBA": [24, 23, 20, 45]
+    },
+    {
+        "name": "vine.png",
+        "averageRGBA": [60, 60, 60, 138]
+    },
+    {
+        "name": "waterlily.png",
+        "averageRGBA": [68, 68, 68, 147]
+    },
+    {
+        "name": "water_flow.png",
+        "averageRGBA": [49, 71, 244, 175]
+    },
+    {
+        "name": "water_still.png",
+        "averageRGBA": [46, 67, 244, 178]
+    },
+    {
+        "name": "web.png",
+        "averageRGBA": [90, 90, 90, 104]
+    },
+    {
+        "name": "wheat_stage_0.png",
+        "averageRGBA": [0, 4, 0, 5]
+    },
+    {
+        "name": "wheat_stage_1.png",
+        "averageRGBA": [1, 13, 1, 19]
+    },
+    {
+        "name": "wheat_stage_2.png",
+        "averageRGBA": [4, 23, 1, 43]
+    },
+    {
+        "name": "wheat_stage_3.png",
+        "averageRGBA": [11, 42, 2, 77]
+    },
+    {
+        "name": "wheat_stage_4.png",
+        "averageRGBA": [18, 52, 3, 103]
+    },
+    {
+        "name": "wheat_stage_5.png",
+        "averageRGBA": [33, 62, 3, 128]
+    },
+    {
+        "name": "wheat_stage_6.png",
+        "averageRGBA": [44, 66, 4, 142]
+    },
+    {
+        "name": "wheat_stage_7.png",
+        "averageRGBA": [56, 66, 5, 166]
+    },
+    {
+        "name": "wool_colored_black.png",
+        "averageRGBA": [25, 22, 22, 255]
+    },
+    {
+        "name": "wool_colored_blue.png",
+        "averageRGBA": [46, 56, 141, 255]
+    },
+    {
+        "name": "wool_colored_brown.png",
+        "averageRGBA": [79, 50, 31, 255]
+    },
+    {
+        "name": "wool_colored_cyan.png",
+        "averageRGBA": [46, 110, 137, 255]
+    },
+    {
+        "name": "wool_colored_gray.png",
+        "averageRGBA": [64, 64, 64, 255]
+    },
+    {
+        "name": "wool_colored_green.png",
+        "averageRGBA": [53, 70, 27, 255]
+    },
+    {
+        "name": "wool_colored_light_blue.png",
+        "averageRGBA": [106, 138, 201, 255]
+    },
+    {
+        "name": "wool_colored_lime.png",
+        "averageRGBA": [65, 174, 56, 255]
+    },
+    {
+        "name": "wool_colored_magenta.png",
+        "averageRGBA": [179, 80, 188, 255]
+    },
+    {
+        "name": "wool_colored_orange.png",
+        "averageRGBA": [219, 125, 62, 255]
+    },
+    {
+        "name": "wool_colored_pink.png",
+        "averageRGBA": [208, 132, 153, 255]
+    },
+    {
+        "name": "wool_colored_purple.png",
+        "averageRGBA": [126, 61, 181, 255]
+    },
+    {
+        "name": "wool_colored_red.png",
+        "averageRGBA": [150, 52, 48, 255]
+    },
+    {
+        "name": "wool_colored_silver.png",
+        "averageRGBA": [154, 161, 161, 255]
+    },
+    {
+        "name": "wool_colored_white.png",
+        "averageRGBA": [221, 221, 221, 255]
+    },
+    {
+        "name": "wool_colored_yellow.png",
+        "averageRGBA": [177, 166, 39, 255]
+    }
+]

@@ -11,12 +11,18 @@ public final class ZedCraftPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         main = this;
-        // Hello friends this is Trevor :)
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "ZedCraft Server starting up...");
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Boot success!");
 
-        // Registers the event we created
-        this.getServer().getPluginManager().registerEvents(new PlayerJoinEvent(), this);
+        // Do everything we need to do in order for the plugin to be configured
+        try {
+            //Configure the plugins first
+            this.getServer().getPluginManager().registerEvents(new PlayerJoinEvent(), this);
+        } catch (Exception e) {
+            getServer().getConsoleSender().sendMessage(ChatColor.DARK_RED + "ERROR upon plugin startup");
+            throw new RuntimeException(e);
+        }
+
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Boot success!");
     }
 
     @Override
