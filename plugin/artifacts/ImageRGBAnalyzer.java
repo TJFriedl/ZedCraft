@@ -24,9 +24,11 @@ public class ImageRGBAnalyzer {
                         BufferedImage image = ImageIO.read(file);
                         // Calculate average RGBA values
                         int[] averageRGBA = calculateAverageRGBA(image);
+                        // Remove the ".png" substring from the file name in java
+                        String name = file.getName().substring(0, file.getName().lastIndexOf(".png"));
                         // Append JSON entry for current file
                         jsonBuilder.append("    {\n");
-                        jsonBuilder.append("        \"name\": \"" + file.getName() + "\",\n");
+                        jsonBuilder.append("        \"name\": \"" + name + "\",\n");
                         jsonBuilder.append("        \"averageRGBA\": [" + averageRGBA[0] + ", " + averageRGBA[1] +
                                 ", " + averageRGBA[2] + ", " + averageRGBA[3] + "]\n");
                         jsonBuilder.append("    },\n");
