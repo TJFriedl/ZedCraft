@@ -3,10 +3,11 @@ package org.cpre488.zedcraftplugin;
 import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.cpre488.zedcraftplugin.events.PlayerJoinEvent;
 
-public final class ZedCraftPlugin extends JavaPlugin implements Listener {
+public final class Main extends JavaPlugin implements Listener {
 
-    public static ZedCraftPlugin main;
+    public static Main main;
 
     @Override
     public void onEnable() {

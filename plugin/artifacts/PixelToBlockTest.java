@@ -28,7 +28,7 @@ public class PixelToBlockTest {
         }
 
         //Now, lets get a list of all the pixel values for an image and save all of their rgb values in a 2D array
-        BufferedImage image = ImageIO.read(new File("JonesPhillip.jpg"));
+        BufferedImage image = ImageIO.read(new File("pog.jpg"));
         int width = image.getWidth();
         int height = image.getHeight();
         String[][] blocks = new String[width][height];
@@ -42,7 +42,7 @@ public class PixelToBlockTest {
                 blocks[x][y] = closestBlock;
             }
         }
-        System.out.println(blocks[121][193]);
+        System.out.println(blocks[159][78]);
     }
 
     /**

@@ -16,10 +16,6 @@
         "averageRGBA": [146, 99, 86, 255]
     },
     {
-        "name": "cactus_side",
-        "averageRGBA": [12, 92, 22, 231]
-    },
-    {
         "name": "clay",
         "averageRGBA": [158, 164, 176, 255]
     },
@@ -40,16 +36,8 @@
         "averageRGBA": [122, 122, 122, 255]
     },
     {
-        "name": "cobblestone_mossy",
-        "averageRGBA": [103, 121, 103, 255]
-    },
-    {
-        "name": "command_block",
+        "name": "command",
         "averageRGBA": [178, 137, 111, 255]
-    },
-    {
-        "name": "crafting_table_side",
-        "averageRGBA": [118, 95, 60, 255]
     },
     {
         "name": "diamond_block",
@@ -64,15 +52,11 @@
         "averageRGBA": [134, 96, 67, 255]
     },
     {
-        "name": "dirt_podzol_side",
-        "averageRGBA": [122, 87, 57, 255]
-    },
-    {
-        "name": "dispenser_front_horizontal",
+        "name": "dispenser",
         "averageRGBA": [116, 116, 116, 255]
     },
     {
-        "name": "dropper_front_horizontal",
+        "name": "dropper",
         "averageRGBA": [116, 116, 116, 255]
     },
     {
@@ -84,11 +68,11 @@
         "averageRGBA": [109, 128, 116, 255]
     },
     {
-        "name": "end_stone",
+        "name": "ender_stone",
         "averageRGBA": [221, 223, 165, 255]
     },
     {
-        "name": "furnace_front_off",
+        "name": "furnace",
         "averageRGBA": [78, 78, 78, 255]
     },
     {
@@ -172,7 +156,7 @@
         "averageRGBA": [143, 139, 124, 255]
     },
     {
-        "name": "grass_side",
+        "name": "grass",
         "averageRGBA": [126, 107, 65, 255]
     },
     {
@@ -180,84 +164,88 @@
         "averageRGBA": [126, 124, 122, 255]
     },
     {
-        "name": "hardened_clay",
+        "name": "hard_clay",
         "averageRGBA": [150, 92, 66, 255]
     },
     {
-        "name": "hardened_clay_stained_black",
+        "name": "hard_clay_black",
         "averageRGBA": [37, 22, 16, 255]
     },
     {
-        "name": "hardened_clay_stained_blue",
+        "name": "hard_clay_blue",
         "averageRGBA": [74, 59, 91, 255]
     },
     {
-        "name": "hardened_clay_stained_brown",
+        "name": "hard_clay_brown",
         "averageRGBA": [77, 51, 35, 255]
     },
     {
-        "name": "hardened_clay_stained_cyan",
+        "name": "hard_clay_cyan",
         "averageRGBA": [86, 91, 91, 255]
     },
     {
-        "name": "hardened_clay_stained_gray",
+        "name": "hard_clay_gray",
         "averageRGBA": [57, 42, 35, 255]
     },
     {
-        "name": "hardened_clay_stained_green",
+        "name": "hard_clay_green",
         "averageRGBA": [76, 83, 42, 255]
     },
     {
-        "name": "hardened_clay_stained_light_blue",
+        "name": "hard_clay_lightblue",
         "averageRGBA": [113, 108, 137, 255]
     },
     {
-        "name": "hardened_clay_stained_lime",
+        "name": "hard_clay_lime",
         "averageRGBA": [103, 117, 52, 255]
     },
     {
-        "name": "hardened_clay_stained_magenta",
+        "name": "hard_clay_magenta",
         "averageRGBA": [149, 88, 108, 255]
     },
     {
-        "name": "hardened_clay_stained_orange",
+        "name": "hard_clay_orange",
         "averageRGBA": [161, 83, 37, 255]
     },
     {
-        "name": "hardened_clay_stained_pink",
+        "name": "hard_clay_pink",
         "averageRGBA": [161, 78, 78, 255]
     },
     {
-        "name": "hardened_clay_stained_purple",
+        "name": "hard_clay_purple",
         "averageRGBA": [118, 70, 86, 255]
     },
     {
-        "name": "hardened_clay_stained_red",
+        "name": "hard_clay_red",
         "averageRGBA": [143, 61, 46, 255]
     },
     {
-        "name": "hardened_clay_stained_silver",
+        "name": "hard_clay_silver",
         "averageRGBA": [135, 106, 97, 255]
     },
     {
-        "name": "hardened_clay_stained_white",
+        "name": "hard_clay_white",
         "averageRGBA": [209, 178, 161, 255]
     },
     {
-        "name": "hardened_clay_stained_yellow",
+        "name": "hard_clay_yellow",
         "averageRGBA": [186, 133, 35, 255]
     },
     {
-        "name": "hay_block_side",
+        "name": "hay_block",
         "averageRGBA": [157, 116, 18, 255]
+    },
+    {
+        "name": "huge_mushroom_1",
+        "averageRGBA": [141, 106, 83, 255]
+    },
+    {
+        "name": "huge_mushroom_2",
+        "averageRGBA": [182, 37, 36, 255]
     },
     {
         "name": "ice",
         "averageRGBA": [125, 173, 255, 159]
-    },
-    {
-        "name": "ice_packed",
-        "averageRGBA": [165, 194, 245, 255]
     },
     {
         "name": "iron_block",
@@ -268,7 +256,7 @@
         "averageRGBA": [135, 130, 126, 255]
     },
     {
-        "name": "jukebox_side",
+        "name": "jukebox",
         "averageRGBA": [100, 67, 50, 255]
     },
     {
@@ -304,19 +292,15 @@
         "averageRGBA": [45, 28, 12, 255]
     },
     {
-        "name": "melon_side",
+        "name": "melon_block",
         "averageRGBA": [141, 145, 36, 255]
     },
     {
-        "name": "mushroom_block_skin_brown",
-        "averageRGBA": [141, 106, 83, 255]
+        "name": "mossy_cobblestone",
+        "averageRGBA": [103, 121, 103, 255]
     },
     {
-        "name": "mushroom_block_skin_red",
-        "averageRGBA": [182, 37, 36, 255]
-    },
-    {
-        "name": "mycelium_side",
+        "name": "mycel",
         "averageRGBA": [113, 88, 73, 255]
     },
     {
@@ -328,12 +312,16 @@
         "averageRGBA": [44, 22, 26, 255]
     },
     {
-        "name": "noteblock",
+        "name": "note_block",
         "averageRGBA": [100, 67, 50, 255]
     },
     {
         "name": "obsidian",
         "averageRGBA": [20, 18, 29, 255]
+    },
+    {
+        "name": "packed_ice",
+        "averageRGBA": [165, 194, 245, 255]
     },
     {
         "name": "planks_acacia",
@@ -360,7 +348,7 @@
         "averageRGBA": [103, 77, 46, 255]
     },
     {
-        "name": "prismarine_bricks",
+        "name": "prismarine",
         "averageRGBA": [99, 160, 143, 255]
     },
     {
@@ -368,7 +356,7 @@
         "averageRGBA": [59, 87, 75, 255]
     },
     {
-        "name": "pumpkin_side",
+        "name": "pumpkin",
         "averageRGBA": [197, 120, 23, 255]
     },
     {
@@ -436,7 +424,7 @@
         "averageRGBA": [172, 199, 190, 255]
     },
     {
-        "name": "slime",
+        "name": "slime_block",
         "averageRGBA": [120, 200, 101, 188]
     },
     {
@@ -500,7 +488,7 @@
         "averageRGBA": [159, 114, 98, 255]
     },
     {
-        "name": "tnt_side",
+        "name": "tnt",
         "averageRGBA": [169, 92, 71, 255]
     },
     {
@@ -566,5 +554,9 @@
     {
         "name": "wool_colored_yellow",
         "averageRGBA": [177, 166, 39, 255]
+    },
+    {
+        "name": "workbench",
+        "averageRGBA": [118, 95, 60, 255]
     }
 ]
