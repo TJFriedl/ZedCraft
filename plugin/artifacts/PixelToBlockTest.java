@@ -33,21 +33,23 @@ public class PixelToBlockTest {
         int height = image.getHeight();
         String[][] blocks = new String[width][height];
 
-
+        // Now we want to iterate through the imported photo and map all of the pixels to a supported block in game.
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
-                int rgba = image.getRGB(x, y);
-                String closestBlock = findClosestMatch(map, rgba);
+                String closestBlock = findClosestMatch(map, image.getRGB(x, y));
 //                System.out.println("Pixel: (" + x + ", " + y + ")");
 //                System.out.println("Closest Block Match: " + closestBlock);
                 blocks[x][y] = closestBlock;
             }
         }
-
-        System.out.println(blocks[156][210]);
-
+        System.out.println(blocks[121][193]);
     }
 
+    /**
+     * Parses name of block within the string passed in from JSON FileIO
+     * @param name - String containing the name we need to extract
+     * @return - Returns shortened string only containing name
+     */
     public static String grabName(String name) {
         int startIndex = 17;
         int endIndex = name.indexOf('"', startIndex + 1);
@@ -59,6 +61,11 @@ public class PixelToBlockTest {
         return name.substring(startIndex, endIndex);
     }
 
+    /**
+     * This method parses the JSON RGBA object from each entry in the file, passed in as a single line of FileIO
+     * @param rgba - String containing the values needing to be parsed
+     * @return - New RGBA object containing parsed values from string
+     */
     public static RGBA grabRGBA(String rgba) {
         String[] values = rgba.substring(rgba.indexOf('[') + 1, rgba.indexOf(']')).split(",");
 
@@ -70,8 +77,14 @@ public class PixelToBlockTest {
         return new RGBA(red, green, blue, alpha);
     }
 
+    /**
+     *
+     * @param map - Hashmap containing block names and their corresponding average rgba values
+     * @param rgba - rgba value of specific pixel of an image represented as an integer
+     * @return - Returns string block calculated to be the closest fit for image's specific pixel
+     */
     public static String findClosestMatch(HashMap<String, RGBA> map, int rgba) {
-        if (((rgba >> 24) & 0xFF) == 0) return "air";
+        if (((rgba >> 24) & 0xFF) == 0) return "air"; // Checks to see if there's 0 opacity, meaning "blank" pixel
         double shortestDist = Double.MAX_VALUE;
         String block = "air";
 
@@ -79,6 +92,7 @@ public class PixelToBlockTest {
             String blockName = entry.getKey();
             RGBA blockColor = entry.getValue();
 
+            // Dist equation equivalent: (rgba.getFoo - blockColor.getFoo)^2
             double alphaDist = Math.pow(((rgba >> 24) & 0xFF) - blockColor.getAlpha(), 2);
             double redDist = Math.pow(((rgba >> 16) & 0xFF) - blockColor.getRed(), 2);
             double greenDist = Math.pow(((rgba >> 8) & 0xFF) - blockColor.getGreen(), 2);

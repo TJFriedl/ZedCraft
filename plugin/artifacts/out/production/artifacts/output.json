@@ -368,10 +368,6 @@
         "averageRGBA": [59, 87, 75, 255]
     },
     {
-        "name": "prismarine_rough",
-        "averageRGBA": [99, 152, 141, 255]
-    },
-    {
         "name": "pumpkin_side",
         "averageRGBA": [197, 120, 23, 255]
     },
@@ -506,10 +502,6 @@
     {
         "name": "tnt_side",
         "averageRGBA": [169, 92, 71, 255]
-    },
-    {
-        "name": "trapdoor",
-        "averageRGBA": [144, 116, 75, 219]
     },
     {
         "name": "wool_colored_black",
