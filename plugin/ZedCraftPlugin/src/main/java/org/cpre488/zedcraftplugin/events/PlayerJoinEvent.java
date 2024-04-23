@@ -1,11 +1,11 @@
-package org.cpre488.zedcraftplugin;
+package org.cpre488.zedcraftplugin.events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import static org.cpre488.zedcraftplugin.ZedCraftPlugin.main;
+import static org.cpre488.zedcraftplugin.Main.main;
 
 public class PlayerJoinEvent implements Listener {
 
@@ -16,4 +16,5 @@ public class PlayerJoinEvent implements Listener {
         Player player = e.getPlayer();
         player.sendMessage(ChatColor.GOLD + "You are currently playing Minecraft on Java 1.8 on a ZedBoard FPGA :)");
     }
+
 }
