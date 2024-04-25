@@ -1,72 +1,172 @@
-[00:30:29] [Server thread/INFO]: Starting minecraft server version 1.8
-[00:30:29] [Server thread/INFO]: Loading properties
-[00:30:29] [Server thread/INFO]: Default game type: SURVIVAL
-[00:30:29] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[00:30:29] [Server thread/INFO]: Debug logging is disabled
-[00:30:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:27:48] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:27:48] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[17:27:48] [Server thread/INFO]: Loading properties
+[17:27:48] [Server thread/INFO]: Default game type: SURVIVAL
+[17:27:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-741a1bd (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:27:48] [Server thread/INFO]: Debug logging is disabled
+[17:27:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:27:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:27:48] [Server thread/INFO]: Generating keypair
+[17:27:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:27:48] [Server thread/INFO]: Using default channel type
+[17:27:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:27:49] [Server thread/INFO]: [Images] Loading Images v2.3.2
+[17:27:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:27:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:27:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:27:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:27:49] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:27:49] [Server thread/INFO]: Preparing level "world"
+[17:27:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:27:49] [Server thread/INFO]: Item Despawn Rate: 1200
+[17:27:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:27:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:27:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:27:49] [Server thread/INFO]: View Distance: 3
+[17:27:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:27:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:27:49] [Server thread/INFO]: Clear tick list: false
+[17:27:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:27:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:27:49] [Server thread/INFO]: Mob Spawn Range: 4
+[17:27:49] [Server thread/INFO]: Random Lighting Updates: false
+[17:27:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:27:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:27:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:27:49] [Server thread/INFO]: Structure Info Saving: true
+[17:27:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:27:49] [Server thread/INFO]: Max TNT Explosions: 100
+[17:27:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:27:49] [Server thread/INFO]: Anti X-Ray: false
+[17:27:49] [Server thread/INFO]: 	Engine Mode: 1
+[17:27:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:27:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:27:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:27:49] [Server thread/INFO]: Max Entity Collisions: 8
+[17:27:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:27:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
+[17:27:49] [Server thread/INFO]: [Images] Enabling Images v2.3.2
+[17:27:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:27:49] [Server thread/INFO]: Done (0.494s)! For help, type "help" or "?"
+[17:27:51] [Craft Scheduler Thread - 0/INFO]: [Images] Loaded 0 images...
+[17:28:12] [Thread-6/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
+[17:28:12] [Server thread/INFO]: TboneJDI[/10.48.55.234:51098] logged in with entity id 0 at ([world]-4.411196755468271, 4.0, -2.59836945055752)
+[17:28:18] [Server thread/INFO]: TboneJDI issued server command: /plugins
+[17:28:21] [Server thread/INFO]: TboneJDI issued server command: /image
+[17:28:27] [Server thread/INFO]: TboneJDI issued server command: /image list
+[17:28:48] [Server thread/INFO]: TboneJDI issued server command: /image import
+[17:29:19] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 20
+[17:29:34] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 20
+[17:29:44] [Server thread/INFO]: TboneJDI issued server command: /give TboneJDI block
+[17:29:44] [Server thread/INFO]: [TboneJDI: There is no such item with name minecraft:block]
+[17:30:13] [Server thread/INFO]: Opped TboneJDI
+[17:30:25] [Server thread/INFO]: TboneJDI issued server command: /give TboneJDI minecraft:stone 4
+[17:30:25] [Server thread/INFO]: [TboneJDI: Given [Stone] * 4 to TboneJDI]
+[17:30:33] [Server thread/INFO]: TboneJDI issued server command: /gamemode creative
+[17:30:33] [Server thread/INFO]: [TboneJDI: Set own game mode to Creative Mode]
+[17:30:36] [Server thread/INFO]: TboneJDI issued server command: /give TboneJDI minecraft:stone 4
+[17:30:36] [Server thread/INFO]: [TboneJDI: Given [Stone] * 4 to TboneJDI]
+[17:30:46] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 20
+[17:32:06] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 100
+[17:32:50] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 100
+[17:32:57] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 2000
+[17:33:04] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 2000
+[17:33:29] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 2000
+[17:33:31] [Craft Scheduler Thread - 5/WARN]: Exception in thread "Craft Scheduler Thread - 5" 
+[17:33:31] [Craft Scheduler Thread - 5/WARN]: org.apache.commons.lang.UnhandledException: Plugin Images v2.3.2 generated an exception while executing task 39
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.awt.image.DataBufferInt.<init>(Unknown Source)
+	at java.awt.image.Raster.createPackedRaster(Unknown Source)
+	at java.awt.image.DirectColorModel.createCompatibleWritableRaster(Unknown Source)
+	at java.awt.image.BufferedImage.<init>(Unknown Source)
+	at com.andavin.images.image.CustomImage.resize(CustomImage.java:430)
+	at com.andavin.images.image.CustomImage.update(CustomImage.java:269)
+	at com.andavin.images.image.CustomImage.<init>(CustomImage.java:75)
+	at com.andavin.images.command.CreateCommand.lambda$onInteract$5(CreateCommand.java:203)
+	at com.andavin.images.command.CreateCommand$$Lambda$19/25961268.run(Unknown Source)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
 
-[00:30:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:30:29] [Server thread/INFO]: Generating keypair
-[00:30:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:30:29] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[00:30:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:30:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:30:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:30:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:30:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[00:30:30] [Server thread/INFO]: Preparing level "world"
-[00:30:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[00:30:30] [Server thread/INFO]: Item Despawn Rate: 1200
-[00:30:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:30:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[00:30:30] [Server thread/INFO]: Max Entity Collisions: 8
-[00:30:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[00:30:30] [Server thread/INFO]: Clear tick list: false
-[00:30:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:30:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:30:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[00:30:30] [Server thread/INFO]: Max TNT Explosions: 100
-[00:30:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:30:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:30:30] [Server thread/INFO]: View Distance: 3
-[00:30:30] [Server thread/INFO]: Mob Spawn Range: 4
-[00:30:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:30:30] [Server thread/INFO]: Anti X-Ray: false
-[00:30:30] [Server thread/INFO]: 	Engine Mode: 1
-[00:30:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[00:30:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[00:30:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:30:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:30:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[00:30:30] [Server thread/INFO]: Alternative Hopper Ticking: false
-[00:30:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[00:30:30] [Server thread/INFO]: Structure Info Saving: true
-[00:30:30] [Server thread/INFO]: Sending up to 10 chunks per packet
-[00:30:30] [Server thread/INFO]: Random Lighting Updates: false
-[00:30:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
-[00:30:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:30:31] [Server thread/INFO]: Done (1.820s)! For help, type "help" or "?"
-[00:32:39] [User Authenticator #1/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
-[00:32:39] [Server thread/INFO]: TboneJDI[/192.168.56.1:52951] logged in with entity id 0 at ([world] 0.5, 4.0, 5.5)
-[00:32:39] [Server thread/INFO]: TboneJDI lost connection: Disconnected
-[00:32:39] [Server thread/INFO]: TboneJDI left the game.
-[00:32:45] [User Authenticator #2/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
-[00:32:45] [Server thread/INFO]: TboneJDI[/192.168.56.1:52953] logged in with entity id 1 at ([world] 0.5, 4.0, 5.5)
-[00:33:21] [Server thread/INFO]: TboneJDI issued server command: /stop
-[00:33:31] [Server thread/INFO]: Opped TboneJDI
-[00:33:39] [Async Chat Thread - #0/INFO]: <TboneJDI> stop
+[17:33:33] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 200
+[17:33:38] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 200
+[17:33:45] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 200
+[17:37:18] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 10000
+[17:37:20] [Craft Scheduler Thread - 4/WARN]: Exception in thread "Craft Scheduler Thread - 4" 
+[17:37:20] [Craft Scheduler Thread - 4/WARN]: org.apache.commons.lang.UnhandledException: Plugin Images v2.3.2 generated an exception while executing task 59
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.awt.image.DataBufferInt.<init>(Unknown Source)
+	at java.awt.image.Raster.createPackedRaster(Unknown Source)
+	at java.awt.image.DirectColorModel.createCompatibleWritableRaster(Unknown Source)
+	at sun.awt.image.ImageRepresentation.createBufferedImage(Unknown Source)
+	at sun.awt.image.ImageRepresentation.setPixels(Unknown Source)
+	at java.awt.image.AreaAveragingScaleFilter.accumPixels(Unknown Source)
+	at java.awt.image.AreaAveragingScaleFilter.setPixels(Unknown Source)
+	at sun.awt.image.OffScreenImageSource.sendPixels(Unknown Source)
+	at sun.awt.image.OffScreenImageSource.produce(Unknown Source)
+	at sun.awt.image.OffScreenImageSource.addConsumer(Unknown Source)
+	at sun.awt.image.OffScreenImageSource.startProduction(Unknown Source)
+	at java.awt.image.FilteredImageSource.startProduction(Unknown Source)
+	at sun.awt.image.ImageRepresentation.startProduction(Unknown Source)
+	at sun.awt.image.ToolkitImage.addWatcher(Unknown Source)
+	at sun.awt.image.ToolkitImage.getWidth(Unknown Source)
+	at com.andavin.images.command.CreateCommand$CreateImageTask.readImage(CreateCommand.java:266)
+	at com.andavin.images.command.CreateCommand.lambda$onInteract$5(CreateCommand.java:196)
+	at com.andavin.images.command.CreateCommand$$Lambda$19/25961268.run(Unknown Source)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
 
-[00:33:43] [Server thread/INFO]: TboneJDI issued server command: /stop
-[00:33:43] [Server thread/INFO]: [TboneJDI: Stopping the server]
-[00:33:43] [Server thread/INFO]: Stopping server
-[00:33:43] [Server thread/INFO]: Saving players
-[00:33:43] [Server thread/INFO]: TboneJDI lost connection: Server closed
-[00:33:43] [Server thread/INFO]: TboneJDI left the game.
-[00:33:43] [Server thread/INFO]: Saving worlds
-[00:33:43] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:37:45] [Server thread/INFO]: TboneJDI issued server command: /time set day
+[17:37:45] [Server thread/INFO]: [TboneJDI: Set the time to 1000]
+[17:38:07] [Server thread/INFO]: TboneJDI issued server command: /image create bird_original.bmp 100
+[17:40:15] [Server thread/INFO]: TboneJDI issued server command: /image delete near
+[17:40:18] [Server thread/INFO]: TboneJDI issued server command: /image delete near 10
+[17:40:24] [Server thread/INFO]: TboneJDI issued server command: /image delete near 10
+[17:40:32] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 1
+[17:40:40] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 5
+[17:40:56] [Server thread/INFO]: TboneJDI issued server command: /image delete near 10
+[17:41:13] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 200
+[17:41:37] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 100
+[17:41:44] [Server thread/INFO]: TboneJDI issued server command: /image delete near 10
+[17:41:59] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 500
+[17:42:50] [Server thread/INFO]: TboneJDI issued server command: /image delete near 10
+[17:42:53] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 5000
+[17:42:55] [Craft Scheduler Thread - 9/WARN]: Exception in thread "Craft Scheduler Thread - 9" 
+[17:42:55] [Craft Scheduler Thread - 9/WARN]: org.apache.commons.lang.UnhandledException: Plugin Images v2.3.2 generated an exception while executing task 135
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+[17:44:10] [Server thread/INFO]: TboneJDI issued server command: /image delete near 10
+[17:44:12] [Server thread/INFO]: TboneJDI issued server command: /image delete near 100
+[17:44:19] [Server thread/INFO]: TboneJDI issued server command: /image create JonesPhillip.jpg 1000
+[17:45:08] [Server thread/INFO]: TboneJDI issued server command: /image create bird_original.bmp 500
+[17:45:13] [Craft Scheduler Thread - 10/WARN]: Exception in thread "Craft Scheduler Thread - 10" 
+[17:45:13] [Craft Scheduler Thread - 10/WARN]: org.apache.commons.lang.UnhandledException: Plugin Images v2.3.2 generated an exception while executing task 151
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+[17:45:50] [Server thread/INFO]: TboneJDI issued server command: /image create bird_original.bmp 100
+[17:47:09] [Server thread/INFO]: TboneJDI issued server command: /save-all
+[17:47:09] [Server thread/INFO]: [TboneJDI: Saved the world]
