@@ -1,8 +1,8 @@
 name: ZedCraftPlugin
 version: '1.0-SNAPSHOT'
-main: org.cpre488.zedcraftplugin.ZedCraftPlugin
-api-version: 1.9
-authors: [ Trevor Friedl, Justin Templeton, Ricky Smith, Simon Aguilar ]
+main: org.cpre488.zedcraftplugin.Main
+api-version: 1.8
+authors: [ S1-1 ]
 commands:
   picture:
     description: Takes in a photo file and prints it into blocks in game

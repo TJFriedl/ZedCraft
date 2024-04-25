@@ -42,7 +42,7 @@ public class PixelToBlockTest {
                 blocks[x][y] = closestBlock;
             }
         }
-        System.out.println(blocks[58][218]);
+        System.out.println(blocks[110][257]);
     }
 
     /**

@@ -5,6 +5,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.cpre488.zedcraftplugin.Main;
 
 import java.io.File;
 
@@ -17,13 +18,13 @@ public class CameraCommands implements CommandExecutor {
         // Prevents server from executing this command, could cause errors if not caught.
         if(!(sender instanceof Player)) {
             sender.sendMessage("Only in game players can use that command!");
-            return true;
+            return false;
         }
 
         Player player = (Player) sender; //Because of above clause, we know person using command is player.
         if (!(player.isOp())) {
             player.sendMessage(ChatColor.RED + "[ZedCraft] You must have operator privileges to use this command.");
-            return true;
+            return false;
         }
 
         if (cmd.getName().equalsIgnoreCase("picture")) {
@@ -31,10 +32,10 @@ public class CameraCommands implements CommandExecutor {
                 player.sendMessage(ChatColor.RED + "[ZedCraft] Incorrect format: /picture {File Name}");
 
             //Eventually will need to change to path from the SD card
-            File picture = new File("ZedCraft//Pictures//" + args[0]);
+            File picture = new File(Main.main.getDataFolder() + "//Pictures//" + args[0]);
             if (!picture.exists()) {
                 player.sendMessage(ChatColor.RED + "[ZedCraft] File does not exist. Choose from below:");
-                for (File file : new File("ZedCraft//Pictures//").listFiles()) {
+                for (File file : new File(Main.main.getDataFolder() + "//Pictures//").listFiles()) {
                     player.sendMessage(ChatColor.GOLD + file.getName());
                 }
             } else {

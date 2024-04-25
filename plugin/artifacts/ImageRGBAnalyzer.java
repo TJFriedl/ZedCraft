@@ -14,6 +14,11 @@ public class ImageRGBAnalyzer {
         StringBuilder jsonBuilder = new StringBuilder();
         jsonBuilder.append("[\n");
 
+        jsonBuilder.append("    {\n");
+        jsonBuilder.append("        \"name\": \"air\",\n");
+        jsonBuilder.append("        \"averageRGBA\": [0, 0, 0, 0]\n");
+        jsonBuilder.append("    },\n");
+
         // Iterate through each file in the directory
         File[] files = directory.listFiles();
         if (files != null) {

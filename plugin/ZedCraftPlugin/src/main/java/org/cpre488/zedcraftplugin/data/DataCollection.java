@@ -1,11 +1,14 @@
 package org.cpre488.zedcraftplugin.data;
 
+import org.bukkit.ChatColor;
+import org.cpre488.zedcraftplugin.Main;
 import org.cpre488.zedcraftplugin.classes.RGBA;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map;
 
 public class DataCollection {
 
@@ -14,7 +17,7 @@ public class DataCollection {
 
         //Set up the variables needed for the calculations in this code
         HashMap<String, RGBA> map = new HashMap<>();
-        BufferedReader br = new BufferedReader(new FileReader("ZedCraft/blocks.json"));
+        BufferedReader br = new BufferedReader(new FileReader(Main.main.getDataFolder() + "//blocks.json"));
 
         //Start the logic to the loop
         String line;
@@ -27,6 +30,7 @@ public class DataCollection {
             }
         }
 
+        Main.main.getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "[ZedCraft] Blocks HashMap Populated.");
         return map;
 
     }

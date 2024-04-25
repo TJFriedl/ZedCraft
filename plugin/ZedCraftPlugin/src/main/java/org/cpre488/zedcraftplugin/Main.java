@@ -26,7 +26,6 @@ public final class Main extends JavaPlugin implements Listener {
             //Set up folder packages
             File directory = new File(this.getDataFolder().getPath());
             if (!directory.exists()) { directory.mkdirs(); }
-
             blocks = DataCollection.populateJSONMap();
 
             //Register in-game commands
