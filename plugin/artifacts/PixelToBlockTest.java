@@ -13,7 +13,7 @@ public class PixelToBlockTest {
         //Set up a hashmap to hold all of our key-value pairs.
         HashMap<String, RGBA> map = new HashMap<>();
         //Set up the buffered reader responsible for iterating through the json file
-        BufferedReader br = new BufferedReader(new FileReader("output.json"));
+        BufferedReader br = new BufferedReader(new FileReader("blocks.json"));
         //Set up all our variables for the image we are about to import
 
         //Start the logic to loop over the JSON file to parse all of the blocks and their respective values.
@@ -28,7 +28,7 @@ public class PixelToBlockTest {
         }
 
         //Now, lets get a list of all the pixel values for an image and save all of their rgb values in a 2D array
-        BufferedImage image = ImageIO.read(new File("pog.jpg"));
+        BufferedImage image = ImageIO.read(new File("JonesPhillip.jpg"));
         int width = image.getWidth();
         int height = image.getHeight();
         String[][] blocks = new String[width][height];
@@ -42,7 +42,7 @@ public class PixelToBlockTest {
                 blocks[x][y] = closestBlock;
             }
         }
-        System.out.println(blocks[159][78]);
+        System.out.println(blocks[58][218]);
     }
 
     /**

@@ -45,7 +45,7 @@ public class ImageRGBAnalyzer {
         }
 
         // Write JSON string to file
-        try (FileWriter fileWriter = new FileWriter("output.json")) {
+        try (FileWriter fileWriter = new FileWriter("blocks.json")) {
             fileWriter.write(jsonBuilder.toString());
             System.out.println("JSON file created successfully!");
         } catch (IOException e) {
