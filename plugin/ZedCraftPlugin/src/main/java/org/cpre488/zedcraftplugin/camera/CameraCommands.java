@@ -1,13 +1,21 @@
 package org.cpre488.zedcraftplugin.camera;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.cpre488.zedcraftplugin.Main;
+import org.cpre488.zedcraftplugin.data.DataCollection;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CameraCommands implements CommandExecutor {
 
@@ -18,13 +26,13 @@ public class CameraCommands implements CommandExecutor {
         // Prevents server from executing this command, could cause errors if not caught.
         if(!(sender instanceof Player)) {
             sender.sendMessage("Only in game players can use that command!");
-            return false;
+            return true;
         }
 
         Player player = (Player) sender; //Because of above clause, we know person using command is player.
         if (!(player.isOp())) {
             player.sendMessage(ChatColor.RED + "[ZedCraft] You must have operator privileges to use this command.");
-            return false;
+            return true;
         }
 
         if (cmd.getName().equalsIgnoreCase("picture")) {
@@ -38,12 +46,37 @@ public class CameraCommands implements CommandExecutor {
                 for (File file : new File(Main.main.getDataFolder() + "//Pictures//").listFiles()) {
                     player.sendMessage(ChatColor.GOLD + file.getName());
                 }
-            } else {
-                player.sendMessage(ChatColor.GREEN + "[ZedCraft] This file exists.");
+                return true;
             }
-            return true;
+
+            player.sendMessage(ChatColor.GREEN + "[ZedCraft] This file exists.");
+            player.sendMessage(ChatColor.ITALIC + "Doing block calculations...");
+            try {
+                HandleImageIO(player, args[0]);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
 
         return false;
+    }
+
+    private void HandleImageIO(Player player, String imageName) throws IOException {
+        BufferedImage image = ImageIO.read(new File(Main.main.getDataFolder() + "//Pictures//" + imageName));
+        int width = image.getWidth();
+        int height = image.getHeight();
+        HashMap<String, Material> blockMap = new HashMap<>();
+
+        int taskID = Bukkit.getScheduler().runTaskTimer(Main.main, () -> {
+            for (int y = 0; y < height; y++) {
+                for (int x = 0; x < width; x++) {
+                    Map.Entry<String, Material> entry = CameraLogic.findClosestBlock(image.getRGB(x, y));
+                    blockMap.put(entry.getKey(), entry.getValue());
+                    player.sendMessage(entry.toString());
+                }
+            }
+        }, 0L, 10L).getTaskId();
+        Bukkit.getScheduler().runTaskLater(Main.main, () -> Bukkit.getScheduler().cancelTask(taskID),
+                width * height / 2);
     }
 }
