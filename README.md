@@ -4,7 +4,7 @@
 
 ## Overview
 
-ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Systems Design," where we aim to run a Minecraft server on a ZedBoard FPGA. The project integrates various peripherals, including a camera and a turret, to enable interaction with the Minecraft environment through plugins and C programs.
+ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Systems Design," where we aim to run a Minecraft server on a ZedBoard FPGA. The project integrates various peripherals, including a camera and a turret available to us from our CPRE 488 lab materials, to enable interaction with the Minecraft environment through plugins and C programs.
 
 ## Features
 
@@ -18,10 +18,12 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
 
 ### Prerequisites
 
-- [ZedBoard FPGA](link_to_zedboard)
-- [Minecraft server software](link_to_minecraft_server)
-- [Camera module](link_to_camera_module)
-- [Turret hardware](link_to_turret_hardware)
+- [ZedBoard FPGA](https://digilent.com/shop/zedboard-zynq-7000-arm-fpga-soc-development-board/)
+- [Minecraft Server - Spigot 1.8 API Documentation](https://helpch.at/docs/1.8/)
+- [(CPRE 488 MP-2): Camera module lab](https://class.ece.iastate.edu/cpre488/labs/MP-2.pdf)
+- [(CPRE 488 MP-2): Camera module materials](https://class.ece.iastate.edu/cpre488/labs/MP-2.zip)
+- [(CPRE 488 MP-3): Turret hardware lab](https://class.ece.iastate.edu/cpre488/labs/MP-3.pdf)
+- [(CPRE 488 MP-3): Turret hardware materials](https://class.ece.iastate.edu/cpre488/labs/MP-3.zip)
 
 ### Installation
 
@@ -39,15 +41,7 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
 2. Connect to the server from your Minecraft client.
 3. Interact with the game using the camera and turret peripherals.
 
-## Contributing
-
-Contributions are welcome! Please read the [Contribution Guidelines](CONTRIBUTING.md) before submitting pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
-- Special thanks to our instructor and classmates for their support and feedback.
+- Special thanks to our instructor, TAs, and classmates for their support and feedback.
 - Hat tip to [Minecraft](https://www.minecraft.net/) for inspiring this project.
