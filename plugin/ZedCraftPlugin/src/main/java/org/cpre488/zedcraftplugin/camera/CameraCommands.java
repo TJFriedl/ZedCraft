@@ -72,7 +72,7 @@ public class CameraCommands implements CommandExecutor {
                 for (int x = 0; x < width; x++) {
                     Map.Entry<String, Material> entry = CameraLogic.findClosestBlock(image.getRGB(x, y));
                     blockMap.put(entry.getKey(), entry.getValue());
-                    player.sendMessage(entry.toString());
+                    //player.sendMessage(entry.toString());
                 }
             }
         }, 0L, 10L).getTaskId();

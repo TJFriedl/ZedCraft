@@ -12,7 +12,7 @@ public class CameraLogic {
     /**
      * Current implementation of "findClosestMatch" coming from artifacts package. Takes rgba value from singular image
      * pixel and approximates a block to be returned to a player
-     * @param rgba - rgba valu
+     * @param rgba - rgba value
      * @return
      */
     public static Map.Entry<String, Material> findClosestBlock(int rgba) {
@@ -24,7 +24,7 @@ public class CameraLogic {
 
         for (Map.Entry<String, RGBA> entry : Main.blocks.entrySet()) {
             String blockName = entry.getKey();
-            double dist = getDist(rgba, entry);
+            double dist = getDist(rgba, entry.getValue());
             if (dist < shortestDist) {
                 shortestDist = dist;
                 block = blockName;
@@ -32,14 +32,11 @@ public class CameraLogic {
         }
 
         //Need some logic for outstanding blocks
-        Material mat = Material.valueOf(block.toUpperCase());
-        return new AbstractMap<>.SimpleEntry<>(block.toUpperCase(), mat);
+        //Material mat = Material.valueOf(block.toUpperCase());
+        return new AbstractMap.SimpleEntry<>(block.toUpperCase(), null);
     }
 
-    private Map.Entry
-
-    private static double getDist(int rgba, Map.Entry<String, RGBA> entry) {
-        RGBA blockColor = entry.getValue();
+    private static double getDist(int rgba, RGBA blockColor) {
 
         // Dist equation equivalent: (rgba.getFoo - blockColor.getFoo)^2
         double alphaDist = Math.pow(((rgba >> 24) & 0xFF) - blockColor.getAlpha(), 2);
