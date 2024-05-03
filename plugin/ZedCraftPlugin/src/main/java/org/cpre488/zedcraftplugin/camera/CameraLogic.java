@@ -31,8 +31,8 @@ public class CameraLogic {
             }
         }
 
-        //Need some logic for outstanding blocks
-        //Material mat = Material.valueOf(block.toUpperCase());
+        //TODO: Insert logic here for converting string of blockname into actual block
+
         return new AbstractMap.SimpleEntry<>(block.toUpperCase(), null);
     }
 
@@ -44,8 +44,7 @@ public class CameraLogic {
         double greenDist = Math.pow(((rgba >> 8) & 0xFF) - blockColor.getGreen(), 2);
         double blueDist = Math.pow((rgba & 0xFF) - blockColor.getBlue(), 2);
 
-        double dist = Math.sqrt(alphaDist + redDist + greenDist + blueDist);
-        return dist;
+        return Math.sqrt(alphaDist + redDist + greenDist + blueDist);
     }
 
 }

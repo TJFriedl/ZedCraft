@@ -16,6 +16,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class CameraCommands implements CommandExecutor {
 
@@ -43,7 +44,7 @@ public class CameraCommands implements CommandExecutor {
             File picture = new File(Main.main.getDataFolder() + "//Pictures//" + args[0]);
             if (!picture.exists()) {
                 player.sendMessage(ChatColor.RED + "[ZedCraft] File does not exist. Choose from below:");
-                for (File file : new File(Main.main.getDataFolder() + "//Pictures//").listFiles()) {
+                for (File file : Objects.requireNonNull(new File(Main.main.getDataFolder() + "//Pictures//").listFiles())) {
                     player.sendMessage(ChatColor.GOLD + file.getName());
                 }
                 return true;
@@ -77,6 +78,6 @@ public class CameraCommands implements CommandExecutor {
             }
         }, 0L, 10L).getTaskId();
         Bukkit.getScheduler().runTaskLater(Main.main, () -> Bukkit.getScheduler().cancelTask(taskID),
-                width * height / 2);
+                (long) width * height / 2);
     }
 }
