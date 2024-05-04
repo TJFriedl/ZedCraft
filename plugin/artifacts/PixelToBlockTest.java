@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class PixelToBlockTest {
@@ -14,7 +15,6 @@ public class PixelToBlockTest {
         HashMap<String, RGBA> map = new HashMap<>();
         //Set up the buffered reader responsible for iterating through the json file
         BufferedReader br = new BufferedReader(new FileReader("blocks.json"));
-        //Set up all our variables for the image we are about to import
 
         //Start the logic to loop over the JSON file to parse all of the blocks and their respective values.
         String line;
@@ -89,11 +89,10 @@ public class PixelToBlockTest {
         String block = "air";
 
         for (Map.Entry<String, RGBA> entry : map.entrySet()) {
-            String blockName = entry.getKey();
             double dist = getDist(rgba, entry);
             if (dist < shortestDist) {
                 shortestDist = dist;
-                block = blockName;
+                block = entry.getKey();
             }
         }
         return block;
@@ -108,7 +107,6 @@ public class PixelToBlockTest {
         double greenDist = Math.pow(((rgba >> 8) & 0xFF) - blockColor.getGreen(), 2);
         double blueDist = Math.pow((rgba & 0xFF) - blockColor.getBlue(), 2);
 
-        double dist = Math.sqrt(alphaDist + redDist + greenDist + blueDist);
-        return dist;
+        return Math.sqrt(alphaDist + redDist + greenDist + blueDist);
     }
 }

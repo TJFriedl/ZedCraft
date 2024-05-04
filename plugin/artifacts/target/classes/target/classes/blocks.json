@@ -3,49 +3,49 @@
         "name": "air",
         "averageRGBA": [0, 0, 0, 0],
         "MaterialName": "AIR",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "beacon",
         "averageRGBA": [116, 221, 215, 255],
         "MaterialName": "BEACON",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "bedrock",
         "averageRGBA": [83, 83, 83, 255],
         "MaterialName": "BEDROCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "bookshelf",
         "averageRGBA": [107, 88, 57, 255],
         "MaterialName": "BOOKSHELF",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "brick",
         "averageRGBA": [146, 99, 86, 255],
         "MaterialName": "BRICK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "clay",
         "averageRGBA": [158, 164, 176, 255],
         "MaterialName": "CLAY",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "coal_block",
         "averageRGBA": [18, 18, 18, 255],
         "MaterialName": "COAL_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "coal_ore",
         "averageRGBA": [115, 115, 115, 255],
         "MaterialName": "COAL_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "coarse_dirt",
@@ -57,109 +57,205 @@
         "name": "cobblestone",
         "averageRGBA": [122, 122, 122, 255],
         "MaterialName": "COBBLESTONE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "command",
         "averageRGBA": [178, 137, 111, 255],
         "MaterialName": "COMMAND",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "diamond_block",
         "averageRGBA": [97, 219, 213, 255],
         "MaterialName": "DIAMOND_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "diamond_ore",
         "averageRGBA": [129, 140, 143, 255],
         "MaterialName": "DIAMOND_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "dirt",
         "averageRGBA": [134, 96, 67, 255],
         "MaterialName": "DIRT",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "dispenser",
         "averageRGBA": [116, 116, 116, 255],
         "MaterialName": "DISPENSER",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "dropper",
         "averageRGBA": [116, 116, 116, 255],
         "MaterialName": "DROPPER",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "emerald_block",
         "averageRGBA": [81, 217, 117, 255],
         "MaterialName": "EMERALD_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "emerald_ore",
         "averageRGBA": [109, 128, 116, 255],
         "MaterialName": "EMERALD_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "ender_stone",
         "averageRGBA": [221, 223, 165, 255],
         "MaterialName": "END_STONE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "furnace",
         "averageRGBA": [78, 78, 78, 255],
         "MaterialName": "FURNACE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "glass",
         "averageRGBA": [60, 66, 67, 70],
         "MaterialName": "GLASS",
-        "blockData": "0"
+        "blockData": ""
+    },
+    {
+        "name": "glass_black",
+        "averageRGBA": [25, 25, 25, 123],
+        "MaterialName": "GLASS",
+        "blockData": "15"
+    },
+    {
+        "name": "glass_blue",
+        "averageRGBA": [51, 76, 178, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "11"
+    },
+    {
+        "name": "glass_brown",
+        "averageRGBA": [102, 76, 51, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "12"
+    },
+    {
+        "name": "glass_cyan",
+        "averageRGBA": [76, 127, 153, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "9"
+    },
+    {
+        "name": "glass_gray",
+        "averageRGBA": [76, 76, 76, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "7"
+    },
+    {
+        "name": "glass_green",
+        "averageRGBA": [102, 127, 51, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "13"
+    },
+    {
+        "name": "glass_light_blue",
+        "averageRGBA": [102, 153, 216, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "3"
+    },
+    {
+        "name": "glass_lime",
+        "averageRGBA": [127, 204, 25, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "5"
+    },
+    {
+        "name": "glass_magenta",
+        "averageRGBA": [178, 76, 216, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "2"
+    },
+    {
+        "name": "glass_orange",
+        "averageRGBA": [216, 127, 51, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "1"
+    },
+    {
+        "name": "glass_pink",
+        "averageRGBA": [242, 127, 165, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "6"
+    },
+    {
+        "name": "glass_purple",
+        "averageRGBA": [127, 63, 178, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "10"
+    },
+    {
+        "name": "glass_red",
+        "averageRGBA": [153, 51, 51, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "14"
+    },
+    {
+        "name": "glass_silver",
+        "averageRGBA": [153, 153, 153, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "8"
+    },
+    {
+        "name": "glass_white",
+        "averageRGBA": [255, 255, 255, 123],
+        "MaterialName": "GLASS",
+        "blockData": ""
+    },
+    {
+        "name": "glass_yellow",
+        "averageRGBA": [229, 229, 51, 123],
+        "MaterialName": "STAINED_GLASS",
+        "blockData": "4"
     },
     {
         "name": "glowstone",
         "averageRGBA": [143, 118, 69, 255],
         "MaterialName": "GLOWSTONE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "gold_block",
         "averageRGBA": [249, 236, 78, 255],
         "MaterialName": "GOLD_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "gold_ore",
         "averageRGBA": [143, 139, 124, 255],
         "MaterialName": "GOLD_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "grass",
         "averageRGBA": [126, 107, 65, 255],
         "MaterialName": "GRASS",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "gravel",
         "averageRGBA": [126, 124, 122, 255],
         "MaterialName": "GRAVEL",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "hard_clay",
         "averageRGBA": [150, 92, 66, 255],
         "MaterialName": "HARD_CLAY",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "hard_clay_black",
@@ -261,49 +357,67 @@
         "name": "hay_block",
         "averageRGBA": [157, 116, 18, 255],
         "MaterialName": "HAY_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "huge_mushroom_1",
         "averageRGBA": [141, 106, 83, 255],
         "MaterialName": "HUGE_MUSHROOM_1",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "huge_mushroom_2",
         "averageRGBA": [182, 37, 36, 255],
         "MaterialName": "HUGE_MUSHROOM_2",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "ice",
         "averageRGBA": [125, 173, 255, 159],
         "MaterialName": "ICE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "iron_block",
         "averageRGBA": [219, 219, 219, 255],
         "MaterialName": "IRON_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "iron_ore",
         "averageRGBA": [135, 130, 126, 255],
         "MaterialName": "IRON_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "lapis_block",
         "averageRGBA": [29, 70, 148, 255],
         "MaterialName": "LAPIS_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "lapis_ore",
         "averageRGBA": [110, 121, 142, 255],
         "MaterialName": "LAPIS_ORE",
-        "blockData": "0"
+        "blockData": ""
+    },
+    {
+        "name": "leaves",
+        "averageRGBA": [52, 100, 37, 255],
+        "MaterialName": "LEAVES",
+        "blockData": ""
+    },
+    {
+        "name": "leaves_jungle",
+        "averageRGBA": [24, 97, 22, 255],
+        "MaterialName": "LEAVES",
+        "blockData": "3"
+    },
+    {
+        "name": "log_acacia",
+        "averageRGBA": [93, 73, 54, 255],
+        "MaterialName": "LOG",
+        "blockData": "12"
     },
     {
         "name": "log_birch",
@@ -327,7 +441,7 @@
         "name": "log_oak",
         "averageRGBA": [128, 99, 58, 255],
         "MaterialName": "LOG",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "log_spruce",
@@ -338,32 +452,62 @@
     {
         "name": "melon",
         "averageRGBA": [105, 122, 17, 255],
-        "MaterialName": "MELON_BLOCK",
-        "blockData": "0"
+        "MaterialName": "MELON",
+        "blockData": ""
+    },
+    {
+        "name": "melon_stem",
+        "averageRGBA": [132, 174, 24, 255],
+        "MaterialName": "MELON_STEM",
+        "blockData": ""
+    },
+    {
+        "name": "mob_spawner",
+        "averageRGBA": [38, 38, 38, 255],
+        "MaterialName": "MOB_SPAWNER",
+        "blockData": ""
     },
     {
         "name": "mycelium",
         "averageRGBA": [110, 83, 110, 255],
-        "MaterialName": "MYCEL",
-        "blockData": "0"
+        "MaterialName": "MYCELIUM",
+        "blockData": ""
     },
     {
         "name": "nether_brick",
         "averageRGBA": [44, 22, 26, 255],
         "MaterialName": "NETHER_BRICK",
-        "blockData": "0"
+        "blockData": ""
+    },
+    {
+        "name": "nether_wart",
+        "averageRGBA": [123, 30, 30, 255],
+        "MaterialName": "NETHER_WARTS",
+        "blockData": ""
+    },
+    {
+        "name": "netherbrick",
+        "averageRGBA": [51, 0, 0, 255],
+        "MaterialName": "NETHER_BRICK",
+        "blockData": ""
     },
     {
         "name": "noteblock",
         "averageRGBA": [117, 78, 51, 255],
         "MaterialName": "NOTE_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "obsidian",
         "averageRGBA": [19, 12, 31, 255],
         "MaterialName": "OBSIDIAN",
-        "blockData": "0"
+        "blockData": ""
+    },
+    {
+        "name": "piston",
+        "averageRGBA": [147, 120, 86, 255],
+        "MaterialName": "PISTON_BASE",
+        "blockData": ""
     },
     {
         "name": "planks_acacia",
@@ -393,7 +537,7 @@
         "name": "planks_oak",
         "averageRGBA": [157, 128, 79, 255],
         "MaterialName": "WOOD",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "planks_spruce",
@@ -408,58 +552,64 @@
         "blockData": ""
     },
     {
+        "name": "pumpkin_stem",
+        "averageRGBA": [189, 107, 7, 255],
+        "MaterialName": "PUMPKIN_STEM",
+        "blockData": ""
+    },
+    {
         "name": "quartz_block",
         "averageRGBA": [234, 229, 223, 255],
         "MaterialName": "QUARTZ_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "quartz_ore",
         "averageRGBA": [144, 141, 139, 255],
         "MaterialName": "QUARTZ_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "redstone_block",
         "averageRGBA": [172, 0, 0, 255],
         "MaterialName": "REDSTONE_BLOCK",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "redstone_lamp",
         "averageRGBA": [115, 88, 57, 255],
         "MaterialName": "REDSTONE_LAMP_OFF",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "redstone_ore",
         "averageRGBA": [130, 107, 107, 255],
         "MaterialName": "REDSTONE_ORE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "sand",
         "averageRGBA": [218, 211, 172, 255],
         "MaterialName": "SAND",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "sandstone",
         "averageRGBA": [218, 211, 172, 255],
         "MaterialName": "SANDSTONE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "sponge",
         "averageRGBA": [185, 185, 34, 255],
         "MaterialName": "SPONGE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "stone",
         "averageRGBA": [127, 127, 127, 255],
         "MaterialName": "STONE",
-        "blockData": "0"
+        "blockData": ""
     },
     {
         "name": "stone_andesite",
@@ -483,7 +633,19 @@
         "name": "tnt",
         "averageRGBA": [237, 0, 0, 255],
         "MaterialName": "TNT",
-        "blockData": "0"
+        "blockData": ""
+    },
+    {
+        "name": "water",
+        "averageRGBA": [51, 76, 178, 123],
+        "MaterialName": "STATIONARY_WATER",
+        "blockData": ""
+    },
+    {
+        "name": "water_flow",
+        "averageRGBA": [51, 76, 178, 123],
+        "MaterialName": "WATER",
+        "blockData": ""
     },
     {
         "name": "web",

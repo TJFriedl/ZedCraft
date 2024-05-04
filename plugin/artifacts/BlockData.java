@@ -1,8 +1,8 @@
 public class BlockData {
 
-    public RGBA rgba;
-    public String materialName;
-    public int metaData;
+    private RGBA rgba;
+    private String materialName;
+    private int metaData;
 
     public BlockData(RGBA rgba, String materialName, int metaData) {
         this.rgba = rgba;
