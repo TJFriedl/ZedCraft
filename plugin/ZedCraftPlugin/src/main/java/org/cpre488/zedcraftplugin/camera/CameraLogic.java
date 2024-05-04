@@ -1,10 +1,9 @@
 package org.cpre488.zedcraftplugin.camera;
 
-import org.bukkit.Material;
 import org.cpre488.zedcraftplugin.Main;
+import org.cpre488.zedcraftplugin.classes.BlockData;
 import org.cpre488.zedcraftplugin.classes.RGBA;
 
-import java.util.AbstractMap;
 import java.util.Map;
 
 public class CameraLogic {
@@ -15,25 +14,21 @@ public class CameraLogic {
      * @param rgba - rgba value
      * @return
      */
-    public static Map.Entry<String, Material> findClosestBlock(int rgba) {
-        if (((rgba >> 24) & 0xFF) == 0)
-            return new AbstractMap.SimpleEntry<>("Air", Material.AIR);
+    public static BlockData findClosestBlock(int rgba) {
+        if (((rgba >> 24) & 0xFF) == 0) return Main.blocks.get("air");
 
         double shortestDist = Double.MAX_VALUE;
         String block = "air";
 
-        for (Map.Entry<String, RGBA> entry : Main.blocks.entrySet()) {
-            String blockName = entry.getKey();
-            double dist = getDist(rgba, entry.getValue());
+        for (Map.Entry<String, BlockData> entry : Main.blocks.entrySet()) {
+            double dist = getDist(rgba, entry.getValue().getRgba());
             if (dist < shortestDist) {
                 shortestDist = dist;
-                block = blockName;
+                block = entry.getKey();
             }
         }
 
-        //TODO: Insert logic here for converting string of blockname into actual block
-
-        return new AbstractMap.SimpleEntry<>(block.toUpperCase(), null);
+        return Main.blocks.get(block);
     }
 
     private static double getDist(int rgba, RGBA blockColor) {

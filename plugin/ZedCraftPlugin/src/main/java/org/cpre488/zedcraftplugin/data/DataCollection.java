@@ -2,9 +2,13 @@ package org.cpre488.zedcraftplugin.data;
 
 import org.bukkit.ChatColor;
 import org.cpre488.zedcraftplugin.Main;
+import org.cpre488.zedcraftplugin.classes.BlockData;
 import org.cpre488.zedcraftplugin.classes.RGBA;
 
-import java.io.BufferedReader;
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
@@ -12,48 +16,33 @@ import java.util.HashMap;
 public class DataCollection {
 
 
-    public static HashMap<String, RGBA> populateJSONMap() throws IOException {
+    public static HashMap<String, BlockData> populateJSONMap() throws IOException {
 
         //Set up the variables needed for the calculations in this code
-        HashMap<String, RGBA> map = new HashMap<>();
-        BufferedReader br = new BufferedReader(new FileReader(Main.main.getDataFolder() + "//blocks.json"));
+        HashMap<String, BlockData> map = new HashMap<>();
+        JsonReader reader = Json.createReader(new FileReader(Main.main.getDataFolder() + "//blocks.json"));
+        JsonArray jsonArray = reader.readArray();
 
         //Start the logic to the loop
-        String line;
-        while ((line = br.readLine()) != null) {
-            if (line.contains("{"))
-            {
-                String name = grabName(br.readLine());
-                RGBA rgba = grabRGBA(br.readLine());
-                map.put(name, rgba);
-            }
+        for (int i = 0; i < jsonArray.size(); i++) {
+            JsonObject obj = jsonArray.getJsonObject(i);
+
+            // Extract data from JSON object
+            String textureName = obj.getString("name");
+            System.out.println(textureName);
+            JsonArray array = obj.getJsonArray("averageRGBA");
+            RGBA rgba = new RGBA((short) array.getInt(0), (short) array.getInt(1),
+                    (short) array.getInt(2), (short) array.getInt(3));
+            String materialName = obj.getString("MaterialName");
+            String blockData = obj.getString("blockData");
+
+            // Append data to the HashSet
+            map.put(textureName, new BlockData(rgba, materialName, Integer.parseInt(blockData)));
         }
 
         Main.main.getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "[ZedCraft] Blocks HashMap Populated.");
         return map;
 
-    }
-
-    public static String grabName(String name) {
-        int startIndex = 17;
-        int endIndex = name.indexOf('"', startIndex + 1);
-        if (endIndex == -1)
-            endIndex = name.indexOf(',', startIndex + 1);
-        if (endIndex == -1)
-            endIndex = name.length();
-
-        return name.substring(startIndex, endIndex);
-    }
-
-    public static RGBA grabRGBA(String rgba) {
-        String[] values = rgba.substring(rgba.indexOf('[') + 1, rgba.indexOf(']')).split(",");
-
-        short red = Short.parseShort(values[0].trim());
-        short green = Short.parseShort(values[1].trim());
-        short blue = Short.parseShort(values[2].trim());
-        short alpha = Short.parseShort(values[3].trim());
-
-        return new RGBA(red, green, blue, alpha);
     }
 
 }

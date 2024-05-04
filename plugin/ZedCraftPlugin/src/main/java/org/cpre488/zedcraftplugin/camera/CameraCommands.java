@@ -2,6 +2,7 @@ package org.cpre488.zedcraftplugin.camera;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -9,13 +10,12 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.cpre488.zedcraftplugin.Main;
+import org.cpre488.zedcraftplugin.classes.BlockData;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 public class CameraCommands implements CommandExecutor {
@@ -86,18 +86,17 @@ public class CameraCommands implements CommandExecutor {
         BufferedImage image = ImageIO.read(new File(Main.main.getDataFolder() + "//Pictures//" + imageName));
         int width = image.getWidth();
         int height = image.getHeight();
-        HashMap<String, Material> blockMap = new HashMap<>();
+        Location loc = player.getLocation();
+        int playerZ = loc.getBlockZ();
 
-        int taskID = Bukkit.getScheduler().runTaskTimer(Main.main, () -> {
+            // CODE GO BRRRRRR
             for (int y = 0; y < height; y++) {
                 for (int x = 0; x < width; x++) {
-                    Map.Entry<String, Material> entry = CameraLogic.findClosestBlock(image.getRGB(x, y));
-                    blockMap.put(entry.getKey(), entry.getValue());
-                    //player.sendMessage(entry.toString());
+                    BlockData block = CameraLogic.findClosestBlock(image.getRGB(x, y));
+                    Location blockLocation = new Location(player.getWorld(), x, height-y, playerZ);
+                    blockLocation.getBlock().setType(Material.valueOf(block.getMaterialName()));
+                    blockLocation.getBlock().setData((byte) block.getMetaData());
                 }
             }
-        }, 0L, 10L).getTaskId();
-        Bukkit.getScheduler().runTaskLater(Main.main, () -> Bukkit.getScheduler().cancelTask(taskID),
-                (long) width * height / 2);
     }
 }

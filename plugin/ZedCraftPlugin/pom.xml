@@ -67,5 +67,15 @@
           <version>1.8-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
+<!--      <dependency>-->
+<!--          <groupId>javax.json</groupId>-->
+<!--          <artifactId>javax.json-api</artifactId>-->
+<!--          <version>1.1.4</version> &lt;!&ndash; or the latest version &ndash;&gt;-->
+<!--      </dependency>-->
+      <dependency>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.json</artifactId>
+          <version>1.1.4</version>
+      </dependency>
   </dependencies>
 </project>

@@ -4,7 +4,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.cpre488.zedcraftplugin.camera.CameraCommands;
-import org.cpre488.zedcraftplugin.classes.RGBA;
+import org.cpre488.zedcraftplugin.classes.BlockData;
 import org.cpre488.zedcraftplugin.data.DataCollection;
 import org.cpre488.zedcraftplugin.events.PlayerJoinEvent;
 
@@ -14,7 +14,7 @@ import java.util.HashMap;
 public final class Main extends JavaPlugin implements Listener {
 
     public static Main main;
-    public static HashMap<String, RGBA> blocks;
+    public static HashMap<String, BlockData> blocks;
 
     @Override
     public void onEnable() {
