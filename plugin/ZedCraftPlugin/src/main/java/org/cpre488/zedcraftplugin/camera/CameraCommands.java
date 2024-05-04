@@ -7,8 +7,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 import org.cpre488.zedcraftplugin.Main;
-import org.cpre488.zedcraftplugin.data.DataCollection;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -37,8 +37,10 @@ public class CameraCommands implements CommandExecutor {
         }
 
         if (cmd.getName().equalsIgnoreCase("picture")) {
-            if (args.length != 1)
+            if (args.length != 1) {
                 player.sendMessage(ChatColor.RED + "[ZedCraft] Incorrect format: /picture {File Name}");
+                return false;
+            }
 
             //Eventually will need to change to path from the SD card
             File picture = new File(Main.main.getDataFolder() + "//Pictures//" + args[0]);
@@ -57,9 +59,27 @@ public class CameraCommands implements CommandExecutor {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        } else if (cmd.getName().equalsIgnoreCase("giveblockdata")) {
+            if (args.length != 2) {
+                player.sendMessage(ChatColor.RED + "[ZedCraft] Incorrect format: /giveblockdata" +
+                        " {Block enum} {Metadata}");
+                return false;
+            }
+
+            try {
+                String blockEnum = args[0];
+                int metaData = Integer.parseInt(args[1]);
+                Material material = Material.valueOf(blockEnum);
+                ItemStack item = new ItemStack(material, 1, (short) metaData);
+                player.getInventory().addItem(item);
+            } catch (Exception e) {
+                player.sendMessage(ChatColor.RED + "[ZedCraft] Could not convert colors properly.");
+                return false;
+            }
+
         }
 
-        return false;
+        return true;
     }
 
     private void HandleImageIO(Player player, String imageName) throws IOException {

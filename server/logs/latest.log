@@ -1,100 +1,160 @@
-[18:27:57] [Server thread/INFO]: Starting minecraft server version 1.8
-[18:27:57] [Server thread/INFO]: Loading properties
-[18:27:57] [Server thread/INFO]: Default game type: SURVIVAL
-[18:27:57] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[18:27:57] [Server thread/INFO]: Debug logging is disabled
-[18:27:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:54:52] [Server thread/INFO]: Starting minecraft server version 1.8
+[20:54:52] [Server thread/INFO]: Loading properties
+[20:54:52] [Server thread/INFO]: Default game type: SURVIVAL
+[20:54:52] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[20:54:52] [Server thread/INFO]: Debug logging is disabled
+[20:54:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[18:27:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:27:57] [Server thread/INFO]: Generating keypair
-[18:27:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:27:57] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[18:27:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[18:27:57] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
-[18:27:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:27:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:27:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:27:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:27:57] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[18:27:58] [Server thread/INFO]: Preparing level "world"
-[18:27:58] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:27:58] [Server thread/INFO]: Max Entity Collisions: 8
-[18:27:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:27:58] [Server thread/INFO]: Item Despawn Rate: 1200
-[18:27:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:27:58] [Server thread/INFO]: Mob Spawn Range: 4
-[18:27:58] [Server thread/INFO]: Anti X-Ray: false
-[18:27:58] [Server thread/INFO]: 	Engine Mode: 1
-[18:27:58] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:27:58] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:27:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:27:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:27:58] [Server thread/INFO]: Random Lighting Updates: false
-[18:27:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:27:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:27:58] [Server thread/INFO]: Structure Info Saving: true
-[18:27:58] [Server thread/INFO]: Alternative Hopper Ticking: false
-[18:27:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:27:58] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:27:58] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:27:58] [Server thread/INFO]: Clear tick list: false
-[18:27:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:27:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:27:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:27:58] [Server thread/INFO]: Max TNT Explosions: 100
-[18:27:58] [Server thread/INFO]: View Distance: 3
-[18:27:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:27:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:27:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
-[18:27:58] [Server thread/INFO]: [ZedCraftPlugin] Enabling ZedCraftPlugin v1.0-SNAPSHOT
-[18:27:58] [Server thread/INFO]: ZedCraft Server starting up...
+[20:54:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:54:52] [Server thread/INFO]: Generating keypair
+[20:54:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:54:52] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[20:54:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:54:52] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
+[20:54:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:54:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:54:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:54:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:54:52] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:54:52] [Server thread/INFO]: Preparing level "world"
+[20:54:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:54:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:54:52] [Server thread/INFO]: Item Despawn Rate: 1200
+[20:54:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:54:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:54:52] [Server thread/INFO]: Mob Spawn Range: 4
+[20:54:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:54:52] [Server thread/INFO]: Anti X-Ray: false
+[20:54:52] [Server thread/INFO]: 	Engine Mode: 1
+[20:54:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:54:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:54:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:54:52] [Server thread/INFO]: Clear tick list: false
+[20:54:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:54:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:54:52] [Server thread/INFO]: View Distance: 3
+[20:54:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:54:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:54:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:54:52] [Server thread/INFO]: Alternative Hopper Ticking: false
+[20:54:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:54:52] [Server thread/INFO]: Random Lighting Updates: false
+[20:54:52] [Server thread/INFO]: Structure Info Saving: true
+[20:54:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:54:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:54:52] [Server thread/INFO]: Max TNT Explosions: 100
+[20:54:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:54:52] [Server thread/INFO]: Max Entity Collisions: 8
+[20:54:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
+[20:54:53] [Server thread/INFO]: [ZedCraftPlugin] Enabling ZedCraftPlugin v1.0-SNAPSHOT
+[20:54:53] [Server thread/INFO]: ZedCraft Server starting up...
 
-[18:27:58] [Server thread/INFO]: [ZedCraft] Blocks HashMap Populated.
+[20:54:53] [Server thread/INFO]: [ZedCraft] Blocks HashMap Populated.
 
-[18:27:58] [Server thread/INFO]: Boot success!
+[20:54:53] [Server thread/INFO]: Boot success!
 
-[18:27:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:27:58] [Server thread/INFO]: Done (0.560s)! For help, type "help" or "?"
-[18:28:10] [User Authenticator #1/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
-[18:28:10] [Server thread/INFO]: WAGOOGUS
+[20:54:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:54:53] [Server thread/INFO]: Done (0.377s)! For help, type "help" or "?"
+[20:55:09] [User Authenticator #1/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
+[20:55:09] [Server thread/INFO]: WAGOOGUS
 
-[18:28:10] [Server thread/INFO]: TboneJDI[/192.168.56.1:51573] logged in with entity id 0 at ([world] -4.517050520553072, 4.0, 13.030465619190569)
-[18:28:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
-
-[18:28:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
-
-[18:28:45] [Server thread/INFO]: Plugins (1): ZedCraftPlugin
-
-[18:28:49] [Server thread/INFO]: TboneJDI issued server command: /picture
-[18:28:49] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'picture' in plugin ZedCraftPlugin v1.0-SNAPSHOT
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[server.jar:git-Spigot-c3c767f-33d5de3]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[server.jar:git-Spigot-c3c767f-33d5de3]
-	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.dispatchCommand(CraftServer.java:646) ~[server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.PlayerConnection.handleCommand(PlayerConnection.java:1115) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.PlayerConnection.a(PlayerConnection.java:950) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.PacketPlayInChat.a(PacketPlayInChat.java:26) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.PacketPlayInChat.a(PacketPlayInChat.java:53) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.PacketHandleTask.run(SourceFile:13) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
-	at net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:696) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:316) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:634) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:537) [server.jar:git-Spigot-c3c767f-33d5de3]
-	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at org.cpre488.zedcraftplugin.camera.CameraCommands.onCommand(CameraCommands.java:43) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[server.jar:git-Spigot-c3c767f-33d5de3]
-	... 14 more
-[18:29:52] [Server thread/INFO]: TboneJDI issued server command: /picture testImage.jpg
-[18:30:16] [Server thread/INFO]: TboneJDI issued server command: /picture testImage.jpg
-[18:30:19] [Server thread/INFO]: TboneJDI issued server command: /picture testImage.jpg
-[18:32:56] [Server thread/INFO]: TboneJDI lost connection: Internal Exception: java.net.SocketException: Connection reset
-[18:32:56] [Server thread/INFO]: TboneJDI left the game.
+[20:55:09] [Server thread/INFO]: TboneJDI[/127.0.0.1:60021] logged in with entity id 0 at ([world] 25.445889636112945, 4.0, 27.79895602648646)
+[20:55:16] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLASS 0
+[20:55:36] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLASS 15
+[20:55:39] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLASS 15
+[20:55:43] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLASS 1
+[20:55:53] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata BLACK_GLASS
+[20:56:25] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLOW
+[20:56:28] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLOWSTONE
+[20:56:32] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLOWSTONE 0
+[20:56:33] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLOWSTONE 1
+[20:56:37] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLOWSTONE 16
+[20:56:40] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GLOWSTONE 17
+[20:57:00] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GOLD_BLOCK 0
+[20:57:04] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GOLD 0
+[20:57:09] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GOLD_INGOT 0
+[20:57:19] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata SPAWNER 0
+[20:57:25] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MONSTER_SPAWNER 0
+[20:58:58] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GRASS 0
+[20:58:59] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GRASS 1
+[20:59:11] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GOLDEN_APPLE 0
+[20:59:12] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GOLDEN_APPLE 1
+[20:59:13] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GOLDEN_APPLE 2
+[20:59:35] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GRAVEL 0
+[20:59:36] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata GRAVEL 1
+[20:59:51] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 0
+[20:59:53] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 15
+[20:59:57] [Server thread/INFO]: TboneJDI issued server command: /clear
+[20:59:57] [Server thread/INFO]: [TboneJDI: Cleared the inventory of TboneJDI, removing 17 items]
+[21:00:00] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 11
+[21:00:06] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 12
+[21:00:09] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 13
+[21:00:14] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 3
+[21:00:17] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 5
+[21:00:23] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 2
+[21:00:27] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 6
+[21:00:32] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 10
+[21:00:35] [Server thread/INFO]: TboneJDI issued server command: /clear
+[21:00:35] [Server thread/INFO]: [TboneJDI: Cleared the inventory of TboneJDI, removing 8 items]
+[21:00:45] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 14
+[21:00:51] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 8
+[21:01:44] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 0
+[21:01:48] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata STAINED_CLAY 4
+[21:01:57] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HAY_BLOCK
+[21:02:00] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HAY_BLOCK 0
+[21:02:02] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HAY_BLOCK 1
+[21:02:16] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HUGE_MUSHROOM_1
+[21:02:19] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HUGE_MUSHROOM_1 0
+[21:02:23] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HUGE_MUSHROOM_1 2
+[21:02:25] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata HUGE_MUSHROOM_2 1
+[21:02:45] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata ICE 0
+[21:02:53] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata IRON_BLOCK 0
+[21:03:16] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LEAVES 0
+[21:03:23] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LEAVES 3
+[21:03:41] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LOG 12
+[21:03:47] [Server thread/INFO]: TboneJDI has just earned the achievement [Getting Wood]
+[21:03:55] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LOG 2
+[21:04:04] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LOG_2 1
+[21:04:21] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LOG 3
+[21:04:26] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LOG 0
+[21:04:35] [Server thread/INFO]: TboneJDI issued server command: /clear
+[21:04:35] [Server thread/INFO]: [TboneJDI: Cleared the inventory of TboneJDI, removing 15 items]
+[21:04:37] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata LOG 1
+[21:04:43] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MELON 0
+[21:04:46] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MELON_BLOCK 0
+[21:05:14] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MOB_SPAWNER 0
+[21:05:19] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MOB_SPAWNER 1
+[21:05:29] [Server thread/INFO]: TboneJDI issued server command: /give TboneJDI minecraft:spawn_egg
+[21:05:29] [Server thread/INFO]: [TboneJDI: Given [Spawn] * 1 to TboneJDI]
+[21:05:42] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata SPAWN_EGG 0
+[21:05:44] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata SPAWN_EGG 1
+[21:05:48] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata SPAWNER_EGG 1
+[21:05:55] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata EGG_SPAWN 0
+[21:06:03] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata EGG 0
+[21:06:05] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata EGG 1
+[21:06:08] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata EGG 2
+[21:06:23] [Server thread/INFO]: TboneJDI issued server command: /gamemode creative
+[21:06:23] [Server thread/INFO]: [TboneJDI: Set own game mode to Creative Mode]
+[21:06:28] [Server thread/INFO]: TboneJDI issued server command: /clear
+[21:06:28] [Server thread/INFO]: [TboneJDI: Cleared the inventory of TboneJDI, removing 3 items]
+[21:06:40] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MYCELIUM 0
+[21:06:43] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MYCE 0
+[21:06:45] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata MYCEL 0
+[21:06:59] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata NETHER_BRICK 0
+[21:09:08] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata NOTE_BLOCK 0
+[21:09:20] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata OBSIDIAN 0
+[21:09:31] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata WOOD 4
+[21:13:50] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata WOOD 5
+[21:13:55] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata WOOD 2
+[21:14:01] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata WOOD 3
+[21:14:07] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata WOOD 1
+[21:14:09] [Server thread/INFO]: TboneJDI issued server command: /clear
+[21:14:09] [Server thread/INFO]: [TboneJDI: Cleared the inventory of TboneJDI, removing 9 items]
+[21:14:18] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata PUMPKIN 0
+[21:14:36] [Server thread/INFO]: TboneJDI issued server command: /giveblockdata QUARTZ_ORE 0

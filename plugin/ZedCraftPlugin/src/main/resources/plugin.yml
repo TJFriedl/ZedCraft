@@ -7,3 +7,6 @@ commands:
   picture:
     description: Takes in a photo file and prints it into blocks in game
     usage: /<command>
+  giveblockdata:
+    description: Gives player a block by passing string enum for material and metadata for data
+    usage: /<command>

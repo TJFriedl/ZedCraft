@@ -31,6 +31,7 @@ public final class Main extends JavaPlugin implements Listener {
             //Register in-game commands
             CameraCommands cc = new CameraCommands();
             getCommand("picture").setExecutor(cc);
+            getCommand("giveblockdata").setExecutor(cc);
 
             //Register events down below
             this.getServer().getPluginManager().registerEvents(new PlayerJoinEvent(), this);
