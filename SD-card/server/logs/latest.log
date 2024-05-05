@@ -1,507 +1,109 @@
-[22:22:11] [Server thread/INFO]: Starting minecraft server version 1.8
-[22:22:11] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[22:22:11] [Server thread/INFO]: Loading properties
-[22:22:11] [Server thread/INFO]: Default game type: SURVIVAL
-[22:22:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[22:22:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:22:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:22:13] [Server thread/INFO]: Debug logging is disabled
-[22:22:13] [Server thread/INFO]: Generating keypair
-[22:22:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:22:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:22:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:22:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:22:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:22:16] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[22:22:17] [Server thread/INFO]: Preparing level "world"
-[22:22:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:22:17] [Server thread/INFO]: Anti X-Ray: false
-[22:22:17] [Server thread/INFO]: 	Engine Mode: 1
-[22:22:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:22:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:22:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:22:17] [Server thread/INFO]: Mob Spawn Range: 4
-[22:22:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:22:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:22:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:22:17] [Server thread/INFO]: Alternative Hopper Ticking: false
-[22:22:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:22:17] [Server thread/INFO]: Random Lighting Updates: false
-[22:22:17] [Server thread/INFO]: Structure Info Saving: true
-[22:22:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:22:17] [Server thread/INFO]: Max Entity Collisions: 8
-[22:22:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:22:17] [Server thread/INFO]: Max TNT Explosions: 100
-[22:22:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:22:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:22:17] [Server thread/INFO]: Clear tick list: false
-[22:22:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:22:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:22:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:22:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:22:17] [Server thread/INFO]: View Distance: 3
-[22:22:17] [Server thread/INFO]: Item Despawn Rate: 1200
-[22:22:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:22:17] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
-[22:22:18] [Server thread/INFO]: Preparing spawn area: 45%
-[22:22:19] [Server thread/INFO]: Preparing spawn area: 69%
-[22:22:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:22:20] [Server thread/INFO]: Done (3.578s)! For help, type "help" or "?"
-[22:22:53] [User Authenticator #1/INFO]: UUID of player simontheboss is d2c37941-003f-322b-89ee-0908b601393e
-[22:22:53] [Server thread/INFO]: simontheboss[/10.48.23.154:63533] logged in with entity id 17 at ([world] 24.69999998807907, 1.0, 40.69999998807907)
-[22:23:13] [Async Chat Thread - #0/INFO]: <simontheboss> >>ls
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.050541039060083115,-0.04586636927415455 (7.882814576466216, 2.270913754082379, 7.985231945409472)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.1784712598288376,-0.08760476651652738 (7.36685650142957, 2.5390955342597445, 10.307785205794039)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.382242880148171,-0.12558670910172154 (6.703839609504409, 2.409913670478075, 9.380084807605)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (6.100494220464203, 2.2833154415080896, 8.535877420923065)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (4.9161639961825, 2.5512491881734847, 10.478999968226756)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (4.473709365457607, 2.4218242515453525, 9.535890245909059)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (3.017905571738368, 2.686987824651848, 10.830419876860528)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (2.7462941494296382, 2.5548481178831577, 9.855682371982146)
-[22:23:22] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (1.10775950341915, 2.6904442368795607, 9.822474478026901)
-[22:23:38] [Server thread/INFO]: simontheboss was slain by Ender Dragon
-[22:24:49] [Server thread/INFO]: simontheboss issued server command: /time set day
-[22:24:59] [Server thread/INFO]: simontheboss was slain by Ender Dragon
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! -0.12099877236877887,-0.1279302207687545,0.06269278174123372 (11.75663331624035, 2.1485841862824344, 2.9422065728841975)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! -0.23110765839768632,-0.33170184108808787,0.11974321476994021 (10.698536626108698, 2.027212542011898, 2.677408058487058)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (14.13226722814122, 2.3002683417824414, 3.419762989583949)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (12.860363548241969, 2.1758630172950504, 3.111984410208247)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (18.40090716983049, 2.4459458103952136, 3.8190210156973325)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (16.74482600712874, 2.3186269393141443, 3.475309224442385)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (15.237792105637691, 2.193854443226282, 3.162531485386182)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (27.02640755419208, 2.46357740815098, 2.735916217515693)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (24.59403158311054, 2.3359059054510913, 2.489683829691539)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (39.610973184466886, 2.60278784384071, 46.42737069743461)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (36.04598663670398, 2.472332135082255, 42.24890855227175)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (19.813800251764345, 2.736485551481374, 44.81754767874089)
-[22:25:00] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.07840000152587878,0.0 (18.030558748743147, 2.603355891120187, 40.78396956304117)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (16.407808934226484, 2.4728888214269773, 37.11341337196963)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (14.931106560458014, 2.34503109063917, 33.77320714183036)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (13.587307361600645, 2.219730512028426, 30.733619384803237)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (12.364450055397905, 2.0969359425999783, 27.96759444619219)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (11.2516498746827, 1.9765972622179788, 25.450511679514246)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (10.239001681047519, 1.858665353148341, 23.159966295824194)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (9.317491798281747, 1.7430920800107235, 21.075569936594306)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (8.478917780797337, 1.629830270131473, 19.178769195029638)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (7.715815402894045, 1.51883369428951, 17.45268047046021)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (7.021392218988893, 1.4100570478472945, 15.88193968583355)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (6.389467103423232, 1.3034559322591734, 14.452565530628975)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (5.814415231685585, 1.19898683694956, 13.151835011905982)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (5.29111801332299, 1.096607121553549, 11.968170205755044)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (4.814917530889013, 0.9962749985127198, 10.891035201114844)
-[22:25:01] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (4.3815750793852395, 0.8979495160190242, 9.910842318643274)
-[22:25:10] [User Authenticator #2/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
-[22:25:10] [Server thread/INFO]: TboneJDI[/10.48.55.178:58761] logged in with entity id 35 at ([world] 24.174373325451544, 4.0, -3.7071515138299107)
-[22:25:34] [Server thread/INFO]: TboneJDI has just earned the achievement [Taking Inventory]
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.20377162031933338,0.0 (9.556381045390637, 1.5248809957668723, 6.303980609113889)
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (15.489660196965419, 1.8079834168811026, 17.97650337824018)
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.3043168274575443,0.0 (10.56544937451945, 2.906832959137787, 1.9860350582744992)
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (11.144199410247527, 3.1622963673432407, 2.2498836459224405)
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (11.391398676474434, 3.412650512257163, 2.4242958227585762)
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (10.894417225798199, 3.4619975723126086, 2.3694689210968813)
-[22:27:02] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (9.913919961193823, 3.314357685372841, 2.1562167803399577)
-[22:27:52] [Server thread/INFO]: simontheboss has just earned the achievement [Taking Inventory]
-[22:28:14] [Async Chat Thread - #1/INFO]: <simontheboss> >>ls
-[22:28:19] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.1082230475927064,0.0 (8.204903717935952, 2.3400360496215757, 5.786613372078566)
-[22:28:19] [Server thread/WARN]: simontheboss moved too quickly! 0.0,-0.27792073608990187,0.0 (10.074986325447052, 2.6068353852065607, 6.035571832192057)
-[22:28:19] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (9.16823782038385, 2.4762987256979896, 5.492370525583942)
-[22:28:19] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (10.984685996953866, 2.7403728103604506, 5.375387274733497)
-[22:28:19] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (9.996064545312873, 2.607165404895826, 4.891602560982624)
-[22:28:19] [Server thread/WARN]: simontheboss moved too quickly! 0.0,0.0,0.0 (9.09641899839194, 2.476622144999764, 4.45135845878157)
-[22:28:32] [Async Chat Thread - #1/INFO]: <TboneJDI> >>cd ..
-[22:28:53] [Server thread/INFO]: TboneJDI issued server command: /entitydata
-[22:28:57] [Server thread/INFO]: TboneJDI issued server command: /entitydata TboneJDI
-[22:29:00] [Server thread/INFO]: TboneJDI issued server command: /entitydata TboneJDI
-[22:29:17] [Server thread/INFO]: TboneJDI issued server command: /time set day
-[22:29:17] [Server thread/INFO]: [TboneJDI: Set the time to 1000]
-[22:29:50] [Server thread/INFO]: TboneJDI lost connection: Disconnected
-[22:29:50] [Server thread/INFO]: TboneJDI left the game.
-[22:31:42] [Server thread/INFO]: simontheboss issued server command: />>ls
-[22:31:54] [Async Chat Thread - #2/INFO]: <simontheboss> >>ls
-[22:36:48] [Async Chat Thread - #3/INFO]: <simontheboss> >>ls
-[22:38:27] [Async Chat Thread - #4/INFO]: <simontheboss> >>ls
-[22:40:35] [Server thread/INFO]: simontheboss issued server command: /safe
-[22:40:42] [Server thread/INFO]: simontheboss issued server command: /save
-[22:40:48] [Server thread/INFO]: simontheboss issued server command: /help
-[22:40:55] [Server thread/INFO]: simontheboss issued server command: /op
-[22:41:40] [Async Chat Thread - #5/INFO]: <simontheboss> >>ls
-[22:42:13] [Async Chat Thread - #5/INFO]: <simontheboss> >>ls
-[22:43:29] [Async Chat Thread - #6/INFO]: <simontheboss> >>ls
-[22:51:51] [Async Chat Thread - #7/INFO]: <simontheboss> >>ls
-[22:53:05] [Async Chat Thread - #8/INFO]: <simontheboss> >>ls
-[22:56:01] [Async Chat Thread - #9/INFO]: <simontheboss> >>echo somthing
-[22:57:28] [Async Chat Thread - #10/INFO]: <simontheboss> >>echo somthing
-[22:58:00] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:58:10] [Server thread/INFO]: [Server] hi
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:42] [Async Chat Thread - #11/INFO]: <simontheboss> >>echo somthing
-[22:59:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:59:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:00:08] [Async Chat Thread - #11/INFO]: <simontheboss> >>/op simontheboss
-[23:00:19] [Server thread/INFO]: simontheboss issued server command: /op
-[23:00:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:00:29] [Async Chat Thread - #11/INFO]: <simontheboss> >>echo somthing
-[23:00:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:00:44] [Server thread/INFO]: simontheboss issued server command: /op simontheboss
-[23:00:52] [Async Chat Thread - #11/INFO]: <simontheboss> >>ls
-[23:00:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:02:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:02:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:02:56] [Async Chat Thread - #12/INFO]: <simontheboss> >>echo somthing
-[23:02:57] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:03:12] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:03:12] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:03:12] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:03:21] [Async Chat Thread - #12/INFO]: <simontheboss> >>echo say hi
-[23:03:22] [Server thread/INFO]: [Server] hi
-[23:05:31] [Server thread/INFO]: [Server] somthing
-[23:05:31] [Server thread/INFO]: [Server] say hi
-[23:05:38] [Async Chat Thread - #13/INFO]: <simontheboss> >>echo op simontheboss
-[23:05:38] [Server thread/INFO]: [Server] op simontheboss
-[23:05:52] [Async Chat Thread - #13/INFO]: <simontheboss> >>ls
-[23:05:52] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[21:53:39] [Server thread/INFO]: Starting minecraft server version 1.8
-[21:53:39] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[21:53:39] [Server thread/INFO]: Loading properties
-[21:53:39] [Server thread/INFO]: Default game type: SURVIVAL
-[21:53:41] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[21:53:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:53:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:53:41] [Server thread/INFO]: Debug logging is disabled
-[21:53:41] [Server thread/INFO]: Generating keypair
-[21:53:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:53:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:53:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:53:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:53:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:53:43] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:53:44] [Server thread/INFO]: Preparing level "world"
-[21:53:44] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:53:44] [Server thread/INFO]: Mob Spawn Range: 4
-[21:53:44] [Server thread/INFO]: Anti X-Ray: false
-[21:53:44] [Server thread/INFO]: 	Engine Mode: 1
-[21:53:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:53:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:53:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:53:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:53:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:53:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:53:44] [Server thread/INFO]: Alternative Hopper Ticking: false
-[21:53:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:53:44] [Server thread/INFO]: Random Lighting Updates: false
-[21:53:44] [Server thread/INFO]: Structure Info Saving: true
-[21:53:44] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:53:44] [Server thread/INFO]: Max Entity Collisions: 8
-[21:53:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:53:44] [Server thread/INFO]: Max TNT Explosions: 100
-[21:53:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:53:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:53:44] [Server thread/INFO]: Clear tick list: false
-[21:53:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:53:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:53:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:53:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:53:44] [Server thread/INFO]: View Distance: 3
-[21:53:44] [Server thread/INFO]: Item Despawn Rate: 1200
-[21:53:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:53:44] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
-[21:53:45] [Server thread/INFO]: Preparing spawn area: 37%
-[21:53:46] [Server thread/INFO]: Preparing spawn area: 63%
-[21:53:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:53:47] [Server thread/INFO]: Done (3.829s)! For help, type "help" or "?"
-[21:55:16] [User Authenticator #1/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:55:17] [Server thread/INFO]: JT3MPS[/10.26.40.188:50107] logged in with entity id 16 at ([world] -1.5, 4.0, -3.5)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! -0.13479097453653388,-0.050541039060083115,0.06524257586941973 (11.826398595618102, 2.033761308733627, 2.516285950162944)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (16.68003765810552, 2.306686133294644, 1.6349832350753553)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (15.178834706327418, 2.1821524530994183, 1.487834786797715)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (22.258032383561822, 2.4521094576034557, 5.142720998768837)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (18.064578626893685, 2.7166673271664337, 15.126221002540841)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (16.43876702423568, 2.583934030913543, 13.764861509013098)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (10.860312991963673, 2.8458554115246733, 16.91281705079193)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (6.680805136758784, 3.1025383695193347, 17.642787271956575)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (6.0795328496615815, 2.962087659779292, 16.054936880180993)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (3.012025480761701, 3.2164459750258154, 15.994373921221664)
-[21:55:38] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (2.74094326648666, 3.0737171153482583, 14.554880687780864)
-[21:55:39] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (0.4314723153113951, 3.3258428436125653, 14.186185024332168)
-[21:55:39] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (1.3503398346688906, 3.572926062120503, 13.588194627727232)
-[21:55:39] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (1.9831214922253313, 3.619067614235695, 12.618832204409992)
-[21:55:39] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (1.8046406099344825, 3.468286329453339, 11.483137636955139)
-[21:55:39] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (1.6422230023689626, 3.320520667490705, 10.449655550786446)
-[21:55:39] [Server thread/WARN]: JT3MPS moved too quickly! 0.0,0.0,0.0 (1.4944229752247682, 3.1757103159489177, 9.509186825268788)
-[21:55:43] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:55:43] [Server thread/INFO]: JT3MPS left the game.
-[21:56:04] [User Authenticator #2/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:56:04] [Server thread/INFO]: JT3MPS[/10.26.40.188:50112] logged in with entity id 17 at ([world] -2.5463229588218352, 4.0, -2.993550623403598)
-[21:56:08] [Async Chat Thread - #0/INFO]: <JT3MPS> >>hi
-[21:56:09] [Server thread/INFO]: Usage: /say <message ...>
-[21:56:14] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:56:14] [Server thread/INFO]: JT3MPS left the game.
-[21:58:05] [Server thread/INFO]: Usage: /say <message ...>
-[21:59:32] [Server thread/INFO]: Usage: /say <message ...>
-[21:59:52] [Server thread/INFO]: Usage: /say <message ...>
-[22:01:46] [Server thread/INFO]: Usage: /say <message ...>
-[22:03:32] [Server thread/INFO]: Usage: /say <message ...>
-[22:04:30] [Server thread/INFO]: Usage: /say <message ...>
-[22:04:55] [Server thread/INFO]: Usage: /say <message ...>
-[21:45:29] [Server thread/INFO]: Starting minecraft server version 1.8
-[21:45:29] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[21:45:29] [Server thread/INFO]: Loading properties
-[21:45:29] [Server thread/INFO]: Default game type: SURVIVAL
-[21:45:31] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[21:45:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:45:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:45:31] [Server thread/INFO]: Debug logging is disabled
-[21:45:31] [Server thread/INFO]: Generating keypair
-[21:45:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:45:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:45:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:45:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:45:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:45:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:45:35] [Server thread/INFO]: Preparing level "world"
-[21:45:35] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:45:35] [Server thread/INFO]: Anti X-Ray: false
-[21:45:35] [Server thread/INFO]: 	Engine Mode: 1
-[21:45:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:45:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:45:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:45:35] [Server thread/INFO]: Mob Spawn Range: 4
-[21:45:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:45:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:45:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:45:35] [Server thread/INFO]: Alternative Hopper Ticking: false
-[21:45:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:45:35] [Server thread/INFO]: Random Lighting Updates: false
-[21:45:35] [Server thread/INFO]: Structure Info Saving: true
-[21:45:35] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:45:35] [Server thread/INFO]: Max Entity Collisions: 8
-[21:45:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:45:35] [Server thread/INFO]: Max TNT Explosions: 100
-[21:45:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:45:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:45:35] [Server thread/INFO]: Clear tick list: false
-[21:45:35] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:45:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:45:35] [Server thread/INFO]: View Distance: 3
-[21:45:35] [Server thread/INFO]: Item Despawn Rate: 1200
-[21:45:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:45:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:45:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:45:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
-[21:45:37] [Server thread/INFO]: Preparing spawn area: 37%
-[21:45:38] [Server thread/INFO]: Preparing spawn area: 63%
-[21:45:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:45:39] [Server thread/INFO]: Done (3.814s)! For help, type "help" or "?"
-[21:46:40] [User Authenticator #1/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:46:40] [Server thread/WARN]: Failed to load player data for JT3MPS
-[21:46:40] [Server thread/INFO]: JT3MPS[/10.48.95.22:50216] logged in with entity id 16 at ([world] -3.5, 4.0, 4.5)
-[21:46:44] [Async Chat Thread - #0/INFO]: <JT3MPS> >>ls
-[21:46:44] [Server thread/INFO]: Usage: /say <message ...>
-[21:46:48] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:46:48] [Server thread/INFO]: JT3MPS left the game.
-[21:45:41] [Server thread/INFO]: Starting minecraft server version 1.8
-[21:45:41] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[21:45:41] [Server thread/INFO]: Loading properties
-[21:45:41] [Server thread/INFO]: Default game type: SURVIVAL
-[21:45:43] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[21:45:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:45:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:45:43] [Server thread/INFO]: Debug logging is disabled
-[21:45:43] [Server thread/INFO]: Generating keypair
-[21:45:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:45:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:45:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:45:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:45:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:45:45] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:45:46] [Server thread/INFO]: Preparing level "world"
-[21:45:46] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:45:46] [Server thread/INFO]: Anti X-Ray: false
-[21:45:46] [Server thread/INFO]: 	Engine Mode: 1
-[21:45:46] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:45:46] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:45:46] [Server thread/INFO]: Mob Spawn Range: 4
-[21:45:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:45:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:45:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:45:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:45:46] [Server thread/INFO]: Alternative Hopper Ticking: false
-[21:45:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:45:46] [Server thread/INFO]: Random Lighting Updates: false
-[21:45:46] [Server thread/INFO]: Structure Info Saving: true
-[21:45:46] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:45:46] [Server thread/INFO]: Max Entity Collisions: 8
-[21:45:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:45:46] [Server thread/INFO]: Max TNT Explosions: 100
-[21:45:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:45:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:45:46] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:45:46] [Server thread/INFO]: Clear tick list: false
-[21:45:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:45:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:45:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:45:46] [Server thread/INFO]: View Distance: 3
-[21:45:46] [Server thread/INFO]: Item Despawn Rate: 1200
-[21:45:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:45:46] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4841924304238652072)
-[21:45:47] [Server thread/INFO]: Preparing spawn area: 36%
-[21:45:48] [Server thread/INFO]: Preparing spawn area: 63%
-[21:45:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:45:49] [Server thread/INFO]: Done (3.857s)! For help, type "help" or "?"
-[21:49:33] [User Authenticator #1/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:49:34] [Server thread/INFO]: JT3MPS[/10.48.95.22:50233] logged in with entity id 16 at ([world] -3.5, 4.0, 4.5)
-[21:49:38] [Async Chat Thread - #0/INFO]: <JT3MPS> >>ls
-[21:49:39] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[21:49:43] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:49:43] [Server thread/INFO]: JT3MPS left the game.
-[21:51:33] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[21:56:45] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[21:56:55] [User Authenticator #2/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:56:55] [Server thread/INFO]: JT3MPS[/10.48.95.22:50243] logged in with entity id 17 at ([world] -3.5, 4.0, 4.5)
-[21:57:03] [Async Chat Thread - #1/INFO]: <JT3MPS> >>!10
-[21:57:08] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:57:08] [Server thread/INFO]: JT3MPS left the game.
-[21:58:28] [User Authenticator #3/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:58:28] [Server thread/INFO]: JT3MPS[/10.48.95.22:50246] logged in with entity id 18 at ([world] -3.5, 2.0, 4.5)
-[21:58:31] [Async Chat Thread - #2/INFO]: <JT3MPS> >>ls
-[21:58:32] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[21:58:36] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:58:36] [Server thread/INFO]: JT3MPS left the game.
-[21:59:14] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[21:59:22] [User Authenticator #4/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:59:22] [Server thread/INFO]: JT3MPS[/10.48.95.22:50249] logged in with entity id 19 at ([world] -3.5, 2.0, 4.5)
-[21:59:27] [Async Chat Thread - #2/INFO]: <JT3MPS> >>!10
-[21:59:38] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:59:38] [Server thread/INFO]: JT3MPS left the game.
-[21:59:45] [User Authenticator #5/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[21:59:45] [Server thread/INFO]: JT3MPS[/10.48.95.22:50252] logged in with entity id 20 at ([world] -3.5, 2.0, 4.5)
-[21:59:49] [Server thread/INFO]: JT3MPS issued server command: /kill all
-[21:59:59] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[21:59:59] [Server thread/INFO]: JT3MPS left the game.
-[22:00:06] [User Authenticator #6/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[22:00:06] [Server thread/INFO]: JT3MPS[/10.48.95.22:50255] logged in with entity id 21 at ([world] -3.5, 2.0, 4.5)
-[22:00:23] [Async Chat Thread - #2/INFO]: <JT3MPS> >>op JSTEMPS
-[22:00:24] [Server thread/INFO]: Usage: /say <message ...>
-[22:00:28] [Async Chat Thread - #2/INFO]: <JT3MPS> >>op JST3MPS
-[22:00:28] [Server thread/INFO]: Usage: /say <message ...>
-[22:00:34] [Async Chat Thread - #2/INFO]: <JT3MPS> >>ls
-[22:00:35] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[22:00:48] [Async Chat Thread - #2/INFO]: <JT3MPS> >>say op JST3MPS
-[22:00:48] [Server thread/INFO]: Usage: /say <message ...>
-[22:01:00] [Server thread/INFO]: JT3MPS has just earned the achievement [Taking Inventory]
-[22:01:20] [Async Chat Thread - #2/INFO]: <JT3MPS> >>/say op
-[22:01:20] [Server thread/INFO]: Usage: /say <message ...>
-[22:01:34] [Server thread/INFO]: JT3MPS lost connection: Disconnected
-[22:01:34] [Server thread/INFO]: JT3MPS left the game.
-[22:12:12] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[22:12:12] [Server thread/INFO]: Usage: /say <message ...>
-[22:12:12] [Server thread/INFO]: Usage: /say <message ...>
-[22:12:41] [Server thread/INFO]: Usage: /say <message ...>
-[22:12:41] [Server thread/INFO]: Usage: /say <message ...>
-[22:12:48] [User Authenticator #7/INFO]: UUID of player JT3MPS is 34bf9f4b-1491-30b0-acf9-5a48f8c0e3b5
-[22:12:48] [Server thread/INFO]: JT3MPS[/10.48.95.22:50276] logged in with entity id 22 at ([world] 16.77554201163406, 4.0, 4.080082332705153)
-[22:12:55] [Async Chat Thread - #3/INFO]: <JT3MPS> >>>op JST3MPS
-[22:12:56] [Server thread/INFO]: Usage: /say <message ...>
-[22:13:54] [Server thread/INFO]: Usage: /say <message ...>
-[22:13:58] [Async Chat Thread - #4/INFO]: <JT3MPS> >>>op JST3MPS
-[22:13:59] [Server thread/INFO]: Usage: /say <message ...>
-[22:14:09] [Async Chat Thread - #4/INFO]: <JT3MPS> >>op JST3MPS
-[22:14:10] [Server thread/INFO]: Usage: /say <message ...>
-[22:14:18] [Async Chat Thread - #4/INFO]: <JT3MPS> >>ls -lah
-[22:14:19] [Server thread/INFO]: [Server] total 20M -rwxr-xr-x 1 root root 0 Apr 11 22:07 ! drwxr-xr-x 5 root root 32.0K Apr 21 2024 . drwxr-xr-x 10 root root 32.0K Jan 1 1970 .. -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._! -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._README.md -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._backSave.sh -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._banned-ips.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._banned-players.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._bukkit.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._clearworlds.sh -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._commands.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._eula.txt -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._help.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._logs -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._ops.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._permissions.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._plugins -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._server.jar -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._server.properties -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._spigot.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._startup.sh -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._usercache.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._whitelist.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._world -rwxr-xr-x 1 root root 65 Apr 18 2024 README.md -rwxr-xr-x 1 root root 444 Apr 11 2024 backSave.sh -rwxr-xr-x 1 root root 2 Apr 11 21:45 banned-ips.json -rwxr-xr-x 1 root root 2 Apr 11 21:45 banned-players.json -rwxr-xr-x 1 root root 1.3K Apr 11 21:45 bukkit.yml -rwxr-xr-x 1 root root 55 Apr 18 2024 clearworlds.sh -rwxr-xr-x 1 root root 610 Apr 11 21:45 commands.yml -rwxr-xr-x 1 root root 183 Apr 18 2024 eula.txt -rwxr-xr-x 1 root root 2.6K Apr 18 2024 help.yml drwxr-xr-x 2 root root 32.0K Apr 11 22:22 logs -rwxr-xr-x 1 root root 202 Apr 11 21:45 ops.json -rwxr-xr-x 1 root root 0 Apr 18 2024 permissions.yml drwxr-xr-x 3 root root 32.0K Apr 18 2024 plugins -rwxr-xr-x 1 root root 18.8M Apr 18 2024 server.jar -rwxr-xr-x 1 root root 757 Apr 11 21:45 server.properties -rwxr-xr-x 1 root root 3.2K Apr 11 21:45 spigot.yml -rwxr-xr-x 1 root root 69 Apr 18 2024 startup.sh -rwxr-xr-x 1 root root 213 Apr 11 21:45 usercache.json -rwxr-xr-x 1 root root 2 Apr 18 2024 whitelist.json drwxr-xr-x 6 root root 32.0K Apr 11 22:10 world
-[22:14:27] [Async Chat Thread - #4/INFO]: <JT3MPS> >>>
-[22:14:28] [Server thread/INFO]: Usage: /say <message ...>
-[22:14:42] [Async Chat Thread - #4/INFO]: <JT3MPS> >>> /say hi
-[22:14:43] [Server thread/INFO]: Usage: /say <message ...>
-[22:14:52] [Async Chat Thread - #4/INFO]: <JT3MPS> >>> say hi
-[22:14:53] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:06] [Async Chat Thread - #4/INFO]: <JT3MPS> >>>say hi
-[22:15:07] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:35] [Server thread/INFO]: [Server] total 20M -rwxr-xr-x 1 root root 0 Apr 11 22:07 ! drwxr-xr-x 5 root root 32.0K Apr 21 2024 . drwxr-xr-x 10 root root 32.0K Jan 1 1970 .. -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._! -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._README.md -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._backSave.sh -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._banned-ips.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._banned-players.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._bukkit.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._clearworlds.sh -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._commands.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._eula.txt -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._help.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._logs -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._ops.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._permissions.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._plugins -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._server.jar -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._server.properties -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._spigot.yml -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._startup.sh -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._usercache.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._whitelist.json -rwxr-xr-x 1 root root 4.0K Apr 21 2024 ._world -rwxr-xr-x 1 root root 65 Apr 18 2024 README.md -rwxr-xr-x 1 root root 444 Apr 11 2024 backSave.sh -rwxr-xr-x 1 root root 2 Apr 11 21:45 banned-ips.json -rwxr-xr-x 1 root root 2 Apr 11 21:45 banned-players.json -rwxr-xr-x 1 root root 1.3K Apr 11 21:45 bukkit.yml -rwxr-xr-x 1 root root 55 Apr 18 2024 clearworlds.sh -rwxr-xr-x 1 root root 610 Apr 11 21:45 commands.yml -rwxr-xr-x 1 root root 183 Apr 18 2024 eula.txt -rwxr-xr-x 1 root root 2.6K Apr 18 2024 help.yml drwxr-xr-x 2 root root 32.0K Apr 11 22:22 logs -rwxr-xr-x 1 root root 202 Apr 11 21:45 ops.json -rwxr-xr-x 1 root root 0 Apr 18 2024 permissions.yml drwxr-xr-x 3 root root 32.0K Apr 18 2024 plugins -rwxr-xr-x 1 root root 18.8M Apr 18 2024 server.jar -rwxr-xr-x 1 root root 757 Apr 11 21:45 server.properties -rwxr-xr-x 1 root root 3.2K Apr 11 21:45 spigot.yml -rwxr-xr-x 1 root root 69 Apr 18 2024 startup.sh -rwxr-xr-x 1 root root 213 Apr 11 21:45 usercache.json -rwxr-xr-x 1 root root 2 Apr 18 2024 whitelist.json drwxr-xr-x 6 root root 32.0K Apr 11 22:10 world
-[22:15:35] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:35] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:35] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:35] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:40] [Async Chat Thread - #4/INFO]: <JT3MPS> >>>say hi
-[22:15:40] [Server thread/INFO]: Usage: /say <message ...>
-[22:15:52] [Async Chat Thread - #4/INFO]: <JT3MPS> >>>ls
-[22:15:52] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[22:17:08] [Server thread/INFO]: Usage: /say <message ...>
-[22:17:08] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[22:17:13] [Async Chat Thread - #5/INFO]: <JT3MPS> >>>
-[22:17:13] [Server thread/INFO]: Usage: /say <message ...>
-[22:17:29] [Async Chat Thread - #5/INFO]: <JT3MPS> >>>op
-[22:17:30] [Server thread/INFO]: Usage: /say <message ...>
-[22:18:05] [Server thread/INFO]: Usage: /say <message ...>
-[22:18:05] [Server thread/INFO]: [Server] ! README.md backSave.sh banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
-[22:18:05] [Server thread/INFO]: Usage: /say <message ...>
-[22:18:05] [Server thread/INFO]: Usage: /say <message ...>
-[22:18:12] [Async Chat Thread - #5/INFO]: <JT3MPS> >>&op
-[22:18:13] [Server thread/INFO]: Usage: /say <message ...>
-[22:18:22] [Async Chat Thread - #5/INFO]: <JT3MPS> >>&op JST3MPS
-[22:18:22] [Server thread/INFO]: Usage: /say <message ...>
-[22:19:38] [Server thread/INFO]: Usage: /say <message ...>
-[22:19:38] [Server thread/INFO]: Usage: /say <message ...>
-[22:19:39] [Server thread/INFO]: Usage: /say <message ...>
-[22:19:46] [Async Chat Thread - #6/INFO]: <JT3MPS> >>op
-[22:19:46] [Server thread/INFO]: Usage: /say <message ...>
-[22:19:56] [Async Chat Thread - #6/INFO]: <JT3MPS> >>&changegamemode
-[22:19:57] [Server thread/INFO]: Usage: /say <message ...>
-[22:20:19] [Server thread/INFO]: Usage: /say <message ...>
-[22:20:19] [Server thread/INFO]: Usage: /say <message ...>
-[22:20:19] [Server thread/INFO]: Usage: /say <message ...>
-[22:20:24] [Async Chat Thread - #6/INFO]: <JT3MPS> >>0op
-[22:20:45] [Server thread/INFO]: Usage: /say <message ...>
-[22:20:45] [Server thread/INFO]: Usage: /say <message ...>
-[22:20:45] [Server thread/INFO]: Usage: /op <player>
-[22:20:51] [Async Chat Thread - #6/INFO]: <JT3MPS> >>0op JST3MPS
-[22:20:55] [Server thread/INFO]: Opped JST3MPS
-[22:21:12] [Async Chat Thread - #6/INFO]: <JT3MPS> >>0gamemode creative
-[22:21:13] [Server thread/INFO]: You must specify which player you wish to perform this action on.
-[22:21:19] [Async Chat Thread - #6/INFO]: <JT3MPS> >>0gamemode creative JST3MPS
-[22:21:20] [Server thread/INFO]: That player cannot be found
-[22:21:28] [Async Chat Thread - #6/INFO]: <JT3MPS> >>0gamemode creative JT3MPS
-[22:21:59] [Server thread/INFO]: JT3MPS issued server command: /give JT3MPS minecraft:command_block
-[22:22:05] [Async Chat Thread - #6/INFO]: <JT3MPS> >>0op JT3MPS
-[22:22:06] [Server thread/INFO]: Opped JT3MPS
-[22:22:12] [Server thread/INFO]: JT3MPS issued server command: /give JT3MPS minecraft:command_block
-[22:22:12] [Server thread/INFO]: [JT3MPS: Given [Command Block] * 1 to JT3MPS]
-[22:23:22] [Server thread/INFO]: You must specify which player you wish to perform this action on.
-[22:23:22] [Server thread/INFO]: That player cannot be found
-[22:23:22] [Server thread/INFO]: Opped JT3MPS
-[22:23:49] [Server thread/INFO]: Opped JT3MPS
-[22:24:16] [Server thread/INFO]: [@] >>!10
-[22:24:38] [Server thread/INFO]: Opped JT3MPS
-[22:24:40] [Server thread/INFO]: [@] >>!10
-[22:25:09] [Server thread/INFO]: [@] >>!10
-[22:26:17] [Server thread/INFO]: [@] >>!10
+[01:02:45] [Server thread/INFO]: Starting minecraft server version 1.8
+[01:02:45] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[01:02:45] [Server thread/INFO]: Loading properties
+[01:02:45] [Server thread/INFO]: Default game type: SURVIVAL
+[01:02:47] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[01:02:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:02:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:02:47] [Server thread/INFO]: Debug logging is disabled
+[01:02:47] [Server thread/INFO]: Generating keypair
+[01:02:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:02:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:02:51] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
+[01:02:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:02:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:02:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:02:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:02:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:02:52] [Server thread/INFO]: Preparing level "world"
+[01:02:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:02:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:02:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:02:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:02:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:02:52] [Server thread/INFO]: Alternative Hopper Ticking: false
+[01:02:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:02:52] [Server thread/INFO]: Mob Spawn Range: 4
+[01:02:52] [Server thread/INFO]: Anti X-Ray: false
+[01:02:52] [Server thread/INFO]: 	Engine Mode: 1
+[01:02:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:02:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:02:52] [Server thread/INFO]: Random Lighting Updates: false
+[01:02:52] [Server thread/INFO]: Structure Info Saving: true
+[01:02:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:02:52] [Server thread/INFO]: Max Entity Collisions: 8
+[01:02:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:02:52] [Server thread/INFO]: Max TNT Explosions: 100
+[01:02:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:02:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:02:52] [Server thread/INFO]: Clear tick list: false
+[01:02:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:02:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:02:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:02:52] [Server thread/INFO]: View Distance: 3
+[01:02:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:02:52] [Server thread/INFO]: Item Despawn Rate: 1200
+[01:02:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:03:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7561018529288985541)
+[01:03:06] [Server thread/INFO]: Preparing spawn area: 12%
+[01:03:07] [Server thread/INFO]: Preparing spawn area: 22%
+[01:03:08] [Server thread/INFO]: Preparing spawn area: 32%
+[01:03:09] [Server thread/INFO]: Preparing spawn area: 43%
+[01:02:19] [Server thread/INFO]: Starting minecraft server version 1.8
+[01:02:19] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[01:02:19] [Server thread/INFO]: Loading properties
+[01:02:19] [Server thread/INFO]: Default game type: SURVIVAL
+[01:02:21] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[01:02:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:02:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:02:22] [Server thread/INFO]: Debug logging is disabled
+[01:02:22] [Server thread/INFO]: Generating keypair
+[01:02:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:02:25] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:02:25] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
+[01:02:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:02:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:02:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:02:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:02:25] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:02:25] [Server thread/INFO]: Preparing level "world"
+[01:02:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:02:25] [Server thread/INFO]: Mob Spawn Range: 4
+[01:02:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:02:25] [Server thread/INFO]: Anti X-Ray: false
+[01:02:25] [Server thread/INFO]: 	Engine Mode: 1
+[01:02:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:02:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:02:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:02:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:02:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:02:25] [Server thread/INFO]: Alternative Hopper Ticking: false
+[01:02:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:02:25] [Server thread/INFO]: Random Lighting Updates: false
+[01:02:25] [Server thread/INFO]: Structure Info Saving: true
+[01:02:25] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:02:25] [Server thread/INFO]: Max Entity Collisions: 8
+[01:02:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:02:25] [Server thread/INFO]: Max TNT Explosions: 100
+[01:02:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:02:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:02:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:02:25] [Server thread/INFO]: Clear tick list: false
+[01:02:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:02:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:02:25] [Server thread/INFO]: Item Despawn Rate: 1200
+[01:02:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:02:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:02:25] [Server thread/INFO]: View Distance: 3
