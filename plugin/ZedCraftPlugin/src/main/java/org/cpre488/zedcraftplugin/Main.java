@@ -3,7 +3,7 @@ package org.cpre488.zedcraftplugin;
 import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.cpre488.zedcraftplugin.camera.CameraCommands;
+import org.cpre488.zedcraftplugin.peripherals.CameraCommands;
 import org.cpre488.zedcraftplugin.classes.BlockData;
 import org.cpre488.zedcraftplugin.data.DataCollection;
 import org.cpre488.zedcraftplugin.events.PlayerJoinEvent;
@@ -36,16 +36,16 @@ public final class Main extends JavaPlugin implements Listener {
             //Register events down below
             this.getServer().getPluginManager().registerEvents(new PlayerJoinEvent(), this);
         } catch (Exception e) {
-            getServer().getConsoleSender().sendMessage(ChatColor.DARK_RED + "ERROR upon plugin startup");
+            getServer().getConsoleSender().sendMessage(ChatColor.DARK_RED + "[ZedCraft] ERROR upon plugin startup");
             throw new RuntimeException(e);
         }
 
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Boot success!");
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[ZedCraft] Boot success!");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        getServer().getConsoleSender().sendMessage(ChatColor.RED + "Server shutting down...");
+        getServer().getConsoleSender().sendMessage(ChatColor.RED + "[ZedCraft] Server shutting down...");
     }
 }

@@ -29,7 +29,6 @@ public class DataCollection {
 
             // Extract data from JSON object
             String textureName = obj.getString("name");
-            System.out.println(textureName);
             JsonArray array = obj.getJsonArray("averageRGBA");
             RGBA rgba = new RGBA((short) array.getInt(0), (short) array.getInt(1),
                     (short) array.getInt(2), (short) array.getInt(3));

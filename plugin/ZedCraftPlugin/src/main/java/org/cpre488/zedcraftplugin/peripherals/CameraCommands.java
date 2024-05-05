@@ -1,8 +1,6 @@
-package org.cpre488.zedcraftplugin.camera;
+package org.cpre488.zedcraftplugin.peripherals;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -10,10 +8,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.cpre488.zedcraftplugin.Main;
-import org.cpre488.zedcraftplugin.classes.BlockData;
 
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.Objects;
@@ -55,7 +50,7 @@ public class CameraCommands implements CommandExecutor {
             player.sendMessage(ChatColor.GREEN + "[ZedCraft] This file exists.");
             player.sendMessage(ChatColor.ITALIC + "Doing block calculations...");
             try {
-                HandleImageIO(player, args[0]);
+                CameraLogic.HandleImageIO(player, args[0]);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -80,23 +75,5 @@ public class CameraCommands implements CommandExecutor {
         }
 
         return true;
-    }
-
-    private void HandleImageIO(Player player, String imageName) throws IOException {
-        BufferedImage image = ImageIO.read(new File(Main.main.getDataFolder() + "//Pictures//" + imageName));
-        int width = image.getWidth();
-        int height = image.getHeight();
-        Location loc = player.getLocation();
-        int playerZ = loc.getBlockZ();
-
-            // CODE GO BRRRRRR
-            for (int y = 0; y < height; y++) {
-                for (int x = 0; x < width; x++) {
-                    BlockData block = CameraLogic.findClosestBlock(image.getRGB(x, y));
-                    Location blockLocation = new Location(player.getWorld(), x, height-y, playerZ);
-                    blockLocation.getBlock().setType(Material.valueOf(block.getMaterialName()));
-                    blockLocation.getBlock().setData((byte) block.getMetaData());
-                }
-            }
     }
 }

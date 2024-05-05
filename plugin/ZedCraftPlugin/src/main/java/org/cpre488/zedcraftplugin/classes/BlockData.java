@@ -2,9 +2,9 @@ package org.cpre488.zedcraftplugin.classes;
 
 public class BlockData {
 
-    private RGBA rgba;
-    private String materialName;
-    private int metaData;
+    private final RGBA rgba;
+    private final String materialName;
+    private final int metaData;
 
     public BlockData(RGBA rgba, String materialName, int metaData) {
         this.rgba = rgba;
