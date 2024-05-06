@@ -33,7 +33,7 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
    git clone https://github.com/your_username/ZedCraft.git
    ```
 
-2. Follow the plugin setup instructions in the [documentation](docs/PluginSetup.pdf).
+2. Follow the plugin setup instructions in the [Plugin Setup Documentation](docs/PluginSetup.pdf).
 
 ## Usage
 
