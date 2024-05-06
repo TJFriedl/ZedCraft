@@ -4,7 +4,7 @@
 
 ## Overview
 
-ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Systems Design," where we aim to run a Minecraft server on a ZedBoard FPGA. The project integrates various peripherals, including a camera and a turret available to us from our CPRE 488 lab materials, to enable interaction with the Minecraft environment through plugins and C programs.
+ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Systems Design," where we aim to run a Minecraft server on a ZedBoard FPGA. The project integrates various peripherals, including a camera and a turret from our CPRE 488 lab materials, to enable interaction with the Minecraft environment through plugins and C programs.
 
 ## Features
 
@@ -30,7 +30,7 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/ZedCraft.git
+   git clone https://github.com/TJFriedl/ZedCraft.git
    ```
 
 2. Follow the plugin setup instructions in the [Plugin Setup Documentation](docs/PluginSetup.pdf).
