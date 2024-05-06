@@ -1,2 +1,2 @@
 echo "Starting server now..."
-java -Xmx512M -Xms512M -jar server.jar
+java -Xmx256M -Xms256M -jar server.jar

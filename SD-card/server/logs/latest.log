@@ -1,109 +1,189 @@
-[01:02:45] [Server thread/INFO]: Starting minecraft server version 1.8
-[01:02:45] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[01:02:45] [Server thread/INFO]: Loading properties
-[01:02:45] [Server thread/INFO]: Default game type: SURVIVAL
-[01:02:47] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[01:02:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:02:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:02:47] [Server thread/INFO]: Debug logging is disabled
-[01:02:47] [Server thread/INFO]: Generating keypair
-[01:02:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:02:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[01:02:51] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
-[01:02:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:02:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:02:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:02:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:02:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[01:02:52] [Server thread/INFO]: Preparing level "world"
-[01:02:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[01:02:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:02:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:02:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[01:02:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:02:52] [Server thread/INFO]: Alternative Hopper Ticking: false
-[01:02:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[01:02:52] [Server thread/INFO]: Mob Spawn Range: 4
-[01:02:52] [Server thread/INFO]: Anti X-Ray: false
-[01:02:52] [Server thread/INFO]: 	Engine Mode: 1
-[01:02:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[01:02:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[01:02:52] [Server thread/INFO]: Random Lighting Updates: false
-[01:02:52] [Server thread/INFO]: Structure Info Saving: true
-[01:02:52] [Server thread/INFO]: Sending up to 10 chunks per packet
-[01:02:52] [Server thread/INFO]: Max Entity Collisions: 8
-[01:02:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[01:02:52] [Server thread/INFO]: Max TNT Explosions: 100
-[01:02:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:02:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[01:02:52] [Server thread/INFO]: Clear tick list: false
-[01:02:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:02:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:02:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:02:52] [Server thread/INFO]: View Distance: 3
-[01:02:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:02:52] [Server thread/INFO]: Item Despawn Rate: 1200
-[01:02:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:03:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7561018529288985541)
-[01:03:06] [Server thread/INFO]: Preparing spawn area: 12%
-[01:03:07] [Server thread/INFO]: Preparing spawn area: 22%
-[01:03:08] [Server thread/INFO]: Preparing spawn area: 32%
-[01:03:09] [Server thread/INFO]: Preparing spawn area: 43%
-[01:02:19] [Server thread/INFO]: Starting minecraft server version 1.8
-[01:02:19] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[01:02:19] [Server thread/INFO]: Loading properties
-[01:02:19] [Server thread/INFO]: Default game type: SURVIVAL
-[01:02:21] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[01:02:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:02:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:02:22] [Server thread/INFO]: Debug logging is disabled
-[01:02:22] [Server thread/INFO]: Generating keypair
-[01:02:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:02:25] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[01:02:25] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
-[01:02:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:02:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:02:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:02:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:02:25] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[01:02:25] [Server thread/INFO]: Preparing level "world"
-[01:02:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[01:02:25] [Server thread/INFO]: Mob Spawn Range: 4
-[01:02:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:02:25] [Server thread/INFO]: Anti X-Ray: false
-[01:02:25] [Server thread/INFO]: 	Engine Mode: 1
-[01:02:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[01:02:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[01:02:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:02:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[01:02:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:02:25] [Server thread/INFO]: Alternative Hopper Ticking: false
-[01:02:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[01:02:25] [Server thread/INFO]: Random Lighting Updates: false
-[01:02:25] [Server thread/INFO]: Structure Info Saving: true
-[01:02:25] [Server thread/INFO]: Sending up to 10 chunks per packet
-[01:02:25] [Server thread/INFO]: Max Entity Collisions: 8
-[01:02:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[01:02:25] [Server thread/INFO]: Max TNT Explosions: 100
-[01:02:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:02:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:02:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[01:02:25] [Server thread/INFO]: Clear tick list: false
-[01:02:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:02:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:02:25] [Server thread/INFO]: Item Despawn Rate: 1200
-[01:02:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:02:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:02:25] [Server thread/INFO]: View Distance: 3
+[01:11:46] [Server thread/INFO]: Starting minecraft server version 1.8
+[01:11:46] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[01:11:46] [Server thread/INFO]: Loading properties
+[01:11:46] [Server thread/INFO]: Default game type: SURVIVAL
+[01:11:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[01:11:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:11:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:11:49] [Server thread/INFO]: Debug logging is disabled
+[01:11:49] [Server thread/INFO]: Generating keypair
+[01:11:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:11:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:11:51] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
+[01:11:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:11:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:11:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:11:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:11:52] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:11:52] [Server thread/INFO]: Preparing level "world"
+[01:11:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:11:52] [Server thread/INFO]: Mob Spawn Range: 4
+[01:11:52] [Server thread/INFO]: Anti X-Ray: false
+[01:11:52] [Server thread/INFO]: 	Engine Mode: 1
+[01:11:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:11:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:11:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:11:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:11:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:11:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:11:52] [Server thread/INFO]: Alternative Hopper Ticking: false
+[01:11:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:11:52] [Server thread/INFO]: Random Lighting Updates: false
+[01:11:52] [Server thread/INFO]: Structure Info Saving: true
+[01:11:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:11:52] [Server thread/INFO]: Max Entity Collisions: 8
+[01:11:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:11:52] [Server thread/INFO]: Max TNT Explosions: 100
+[01:11:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:11:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:11:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:11:52] [Server thread/INFO]: Clear tick list: false
+[01:11:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:11:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:11:52] [Server thread/INFO]: View Distance: 3
+[01:11:52] [Server thread/INFO]: Item Despawn Rate: 1200
+[01:11:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:11:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:11:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6599302818702754495)
+[01:11:53] [Server thread/INFO]: Preparing spawn area: 46%
+[01:11:54] [Server thread/INFO]: [ZedCraftPlugin] Enabling ZedCraftPlugin v1.0-SNAPSHOT
+[01:11:54] [Server thread/INFO]: ZedCraft Server starting up...
+[01:11:54] [Server thread/INFO]: [ZedCraft] Blocks HashMap Populated.
+[01:11:54] [Server thread/INFO]: [ZedCraft] Boot success!
+[01:11:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:11:55] [Server thread/INFO]: Done (3.138s)! For help, type "help" or "?"
+[01:12:23] [User Authenticator #1/INFO]: UUID of player simontheboss is d2c37941-003f-322b-89ee-0908b601393e
+[01:12:23] [Server thread/INFO]: WAGOOGUS
+[01:12:23] [Server thread/INFO]: simontheboss[/10.48.23.139:62939] logged in with entity id 0 at ([world] -19.989894362467425, 4.0, 8.609728005608181)
+[01:12:51] [Async Chat Thread - #0/INFO]: <simontheboss> >>anything
+[01:13:00] [Async Chat Thread - #0/INFO]: <simontheboss> >>ls
+[01:13:09] [Async Chat Thread - #0/INFO]: <simontheboss> >> ls
+[01:02:00] [Server thread/INFO]: Starting minecraft server version 1.8
+[01:02:00] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[01:02:00] [Server thread/INFO]: Loading properties
+[01:02:01] [Server thread/INFO]: Default game type: SURVIVAL
+[01:02:02] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[01:02:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:02:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:02:03] [Server thread/INFO]: Debug logging is disabled
+[01:02:03] [Server thread/INFO]: Generating keypair
+[01:02:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:02:07] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:02:07] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
+[01:02:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:02:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:02:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:02:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:02:07] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:02:07] [Server thread/INFO]: Preparing level "world"
+[01:02:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:02:07] [Server thread/INFO]: Mob Spawn Range: 4
+[01:02:07] [Server thread/INFO]: Anti X-Ray: false
+[01:02:07] [Server thread/INFO]: 	Engine Mode: 1
+[01:02:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:02:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:02:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:02:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:02:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:02:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:02:07] [Server thread/INFO]: Alternative Hopper Ticking: false
+[01:02:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:02:07] [Server thread/INFO]: Random Lighting Updates: false
+[01:02:07] [Server thread/INFO]: Structure Info Saving: true
+[01:02:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:02:07] [Server thread/INFO]: Max Entity Collisions: 8
+[01:02:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:02:07] [Server thread/INFO]: Max TNT Explosions: 100
+[01:02:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:02:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:02:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:02:07] [Server thread/INFO]: Clear tick list: false
+[01:02:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:02:07] [Server thread/INFO]: Item Despawn Rate: 1200
+[01:02:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:02:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:02:07] [Server thread/INFO]: View Distance: 3
+[01:02:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:02:08] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6599302818702754495)
+[01:02:09] [Server thread/INFO]: Preparing spawn area: 38%
+[01:02:10] [Server thread/INFO]: Preparing spawn area: 85%
+[01:02:10] [Server thread/INFO]: [ZedCraftPlugin] Enabling ZedCraftPlugin v1.0-SNAPSHOT
+[01:02:10] [Server thread/INFO]: ZedCraft Server starting up...
+[01:02:10] [Server thread/INFO]: [ZedCraft] Blocks HashMap Populated.
+[01:02:10] [Server thread/INFO]: [ZedCraft] Boot success!
+[01:02:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:02:10] [Server thread/INFO]: Done (3.465s)! For help, type "help" or "?"
+[01:02:47] [User Authenticator #1/INFO]: UUID of player simontheboss is d2c37941-003f-322b-89ee-0908b601393e
+[01:02:48] [Server thread/INFO]: WAGOOGUS
+[01:02:48] [Server thread/INFO]: simontheboss[/10.48.23.139:63002] logged in with entity id 0 at ([world] -19.989894362467425, 4.0, 8.609728005608181)
+[01:03:50] [Async Chat Thread - #0/INFO]: <simontheboss> ls
+[01:04:01] [Async Chat Thread - #0/INFO]: <simontheboss> >>ls
+[01:04:02] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:04:22] [Async Chat Thread - #0/INFO]: <simontheboss> >>!10
+[01:07:07] [Async Chat Thread - #1/INFO]: <simontheboss> >>!10
+[01:07:24] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:07:33] [Async Chat Thread - #1/INFO]: <simontheboss> >>!10
+[01:08:57] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:09:01] [Async Chat Thread - #2/INFO]: <simontheboss> >>!
+[01:09:05] [Async Chat Thread - #2/INFO]: <simontheboss> >>!10
+[01:10:19] [Async Chat Thread - #3/INFO]: <simontheboss> >>ls
+[01:10:27] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:10:28] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:10:30] [Async Chat Thread - #3/INFO]: <simontheboss> >>ls
+[01:10:30] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:13:44] [Server thread/INFO]: simontheboss issued server command: /picture a
+[01:14:06] [Server thread/INFO]: simontheboss issued server command: /picture JonesPhillip.jpg
+[01:16:43] [Server thread/INFO]: simontheboss lost connection: Disconnected
+[01:16:43] [Server thread/INFO]: simontheboss left the game.
+[01:16:48] [User Authenticator #2/INFO]: UUID of player simontheboss is d2c37941-003f-322b-89ee-0908b601393e
+[01:16:48] [Server thread/INFO]: WAGOOGUS
+[01:16:48] [Server thread/INFO]: simontheboss[/10.48.23.139:63159] logged in with entity id 1 at ([world] 21.905190387899573, 4.0, 49.69999998807907)
+[01:18:02] [Server thread/INFO]: simontheboss issued server command: /op
+[01:19:09] [Server thread/INFO]: simontheboss issued server command: /picture baby.jpg
+[01:20:20] [Async Chat Thread - #4/INFO]: <simontheboss> >>!10
+[01:20:32] [Async Chat Thread - #4/INFO]: <simontheboss> >>!10
+[01:20:49] [Async Chat Thread - #4/INFO]: <simontheboss> >>ls
+[01:20:50] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:22:19] [Async Chat Thread - #5/INFO]: <simontheboss> >>ls
+[01:22:20] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:22:20] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:22:39] [Async Chat Thread - #5/INFO]: <simontheboss> >>echo hi >test
+[01:22:39] [Server thread/INFO]: [Server] hi >test
+[01:22:48] [Async Chat Thread - #5/INFO]: <simontheboss> >>ls
+[01:22:49] [Server thread/INFO]: [Server] Johns_Sun.zip README.md banned-ips.json banned-players.json bukkit.yml clearworlds.sh commands.yml eula.txt help.yml logs ops.json permissions.yml plugins server.jar server.properties spigot.yml startup.sh usercache.json whitelist.json world
+[01:23:12] [Async Chat Thread - #5/INFO]: <simontheboss> >>sh -c "echo hi >test"
+[01:23:12] [Server thread/INFO]: Usage: /say <message ...>
+[01:23:40] [Async Chat Thread - #5/INFO]: <simontheboss> >>sh -c 'echo hi > test'
+[01:23:40] [Server thread/INFO]: Usage: /say <message ...>
+[01:24:18] [Async Chat Thread - #5/INFO]: <simontheboss> >>sh -c 'echo hi \> test'
+[01:24:19] [Server thread/INFO]: Usage: /say <message ...>
+[01:24:29] [Async Chat Thread - #5/INFO]: <simontheboss> >>sh -c 'echo hi test'
+[01:24:29] [Server thread/INFO]: Usage: /say <message ...>
+[01:25:03] [Async Chat Thread - #5/INFO]: <simontheboss> >>echo hi test
+[01:25:03] [Server thread/INFO]: [Server] hi test
+[01:25:13] [Async Chat Thread - #5/INFO]: <simontheboss> >>echo 'hi test'
+[01:25:13] [Server thread/INFO]: [Server] 'hi test'
+[01:35:28] [Server thread/INFO]: Usage: /say <message ...>
+[01:35:28] [Server thread/INFO]: Usage: /say <message ...>
+[01:35:28] [Server thread/INFO]: Usage: /say <message ...>
+[01:35:28] [Server thread/INFO]: [Server] hi test
+[01:35:29] [Server thread/INFO]: [Server] 'hi test'
+[01:35:46] [Async Chat Thread - #6/INFO]: <simontheboss> >>!10
+[01:36:02] [Async Chat Thread - #6/INFO]: <simontheboss> >>!10
+[01:36:11] [Async Chat Thread - #6/INFO]: <simontheboss> >>!10
+[01:37:08] [Server thread/INFO]: [Server] 'hi test'
+[01:37:16] [Async Chat Thread - #7/INFO]: <simontheboss> >>!20
+[01:37:28] [Async Chat Thread - #7/INFO]: <simontheboss> >>!08
+[01:37:35] [Async Chat Thread - #7/INFO]: <simontheboss> >>!07
