@@ -9,7 +9,8 @@ public class PlayerJoinEvent implements Listener {
     // Example event handler for player join event
     @EventHandler
     public void onJoin(org.bukkit.event.player.PlayerJoinEvent e) {
-        e.getPlayer().sendMessage(ChatColor.GOLD + "Welcome, You are playing Minecraft on Java 1.8 on a ZedBoard FPGA.");
+        e.getPlayer().sendMessage(ChatColor.GOLD + "Welcome, You are playing Minecraft" +
+                " on Java 1.8 on a ZedBoard FPGA.");
     }
 
 }
