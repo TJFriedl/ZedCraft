@@ -38,9 +38,13 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
 
 ## Usage
 
-1. Start the Minecraft server on the ZedBoard FPGA.
-2. Connect to the server from your Minecraft client.
-3. Interact with the game using the camera and turret peripherals.
+1. Start the Minecraft server by being in the "server" directory of the SD card (cd /mnt/sd?/server) and running the command "./../server.sh" (this should be don as a background process or in a seperate terminal instance using the screen command.
+2. Wait for the server to completely bootup and give a "Done" command.
+3. From the same directory as above, run the command "./../backdoor.sh". This should NOT be done as a background process or should be done in a seperate terminal window using screen.
+4. The Minecraft Text Chat will not have new features as outlined below
+   i. Starting a chat message with ">>" will run it as a bash script
+   ii. Starting a chat message with ">>!" will be a character to send to the NERF turret we are using (i.e ">>!10" will run the linux command "echo –en ‘\x10’ > /dev/launcher0")
+   iii. Starting a chat message with ">>0" will run the command as a MINECRAFT command as an adminitstator. (i.e. ">>0kill all" will kill all living entities in the minecraft world)
 
 ## Acknowledgements
 
