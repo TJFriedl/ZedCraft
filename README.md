@@ -34,6 +34,7 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
    ```
 
 2. Follow the plugin setup instructions in the [Plugin Setup Documentation](docs/PluginSetup.pdf).
+3. Follow the server setup instructions in the [ZedBoard Server Setup Documentation](docs/ServerSetup.pdf)
 
 ## Usage
 
@@ -44,4 +45,3 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
 ## Acknowledgements
 
 - Special thanks to our instructor, TAs, and classmates for their support and feedback.
-- Hat tip to [Minecraft](https://www.minecraft.net/) for inspiring this project.
