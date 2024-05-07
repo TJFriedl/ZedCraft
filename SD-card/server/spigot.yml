@@ -14,17 +14,6 @@ config-version: 8
 stats:
   disable-saving: false
   forced-stats: {}
-commands:
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  tab-complete: 0
 settings:
   bungeecord: false
   late-bind: false
@@ -48,6 +37,17 @@ settings:
       max: 2048.0
   save-user-cache-on-stop-only: false
   debug: false
+commands:
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
+  tab-complete: 0
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
@@ -58,7 +58,6 @@ messages:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -119,15 +118,16 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    mob-spawn-range: 4
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
     clear-tick-list: false
     merge-radius:
       exp: 3.0
       item: 2.5
-    item-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
     wither-spawn-sound-radius: 0
     view-distance: 3
     hanging-tick-frequency: 100
-    enable-zombie-pigmen-portal-spawns: true
+    item-despawn-rate: 1200
