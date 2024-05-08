@@ -1,7 +1,7 @@
 org\cpre488\zedcraftplugin\events\PlayerJoinEvent.class
+org\cpre488\zedcraftplugin\peripherals\CameraCommands.class
 org\cpre488\zedcraftplugin\Main.class
 org\cpre488\zedcraftplugin\classes\BlockData.class
 org\cpre488\zedcraftplugin\classes\RGBA.class
 org\cpre488\zedcraftplugin\data\DataCollection.class
-org\cpre488\zedcraftplugin\camera\CameraCommands.class
-org\cpre488\zedcraftplugin\camera\CameraLogic.class
+org\cpre488\zedcraftplugin\peripherals\CameraLogic.class

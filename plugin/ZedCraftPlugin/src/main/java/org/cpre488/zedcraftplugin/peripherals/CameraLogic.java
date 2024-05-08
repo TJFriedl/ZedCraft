@@ -53,13 +53,12 @@ public class CameraLogic {
         int width = image.getWidth();
         int height = image.getHeight();
         Location loc = player.getLocation();
-        int playerZ = loc.getBlockZ();
 
         // CODE GO BRRRRRR
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 BlockData block = CameraLogic.findClosestBlock(image.getRGB(x, y));
-                Location blockLocation = new Location(player.getWorld(), x, height-y, playerZ);
+                Location blockLocation = new Location(player.getWorld(), loc.getBlockX()+x, loc.getBlockY()+(height-y), loc.getBlockZ());
                 blockLocation.getBlock().setType(Material.valueOf(block.getMaterialName()));
                 blockLocation.getBlock().setData((byte) block.getMetaData());
             }
