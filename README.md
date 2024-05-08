@@ -36,7 +36,7 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
 2. Follow the plugin setup instructions in the [Plugin Setup Documentation](docs/PluginSetup.pdf).
 3. Read our Final Project Report located at [ZedCraft Final Report Documentation](docs/ZedCraft.pdf)
 
-## Usage
+## Backdoor.sh and Server.sh Usage
 
 1. Start the Minecraft server by being in the "server" directory of the SD card (cd /mnt/<sd-card-partition>/server) and running the command "./../server.sh" (this should be don as a background process or in a seperate terminal instance using the screen command.
 2. Wait for the server to completely bootup and give a "Done" command.
