@@ -34,11 +34,11 @@ ZedCraft is a project developed as part of CPRE 488, also known as "Embedded Sys
    ```
 
 2. Follow the plugin setup instructions in the [Plugin Setup Documentation](docs/PluginSetup.pdf).
-3. Follow the server setup instructions in the [ZedBoard Server Setup Documentation](docs/ServerSetup.pdf)
+3. Read our Final Project Report located at [ZedCraft Final Report Documentation](docs/ZedCraft.pdf)
 
 ## Usage
 
-1. Start the Minecraft server by being in the "server" directory of the SD card (cd /mnt/sd?/server) and running the command "./../server.sh" (this should be don as a background process or in a seperate terminal instance using the screen command.
+1. Start the Minecraft server by being in the "server" directory of the SD card (cd /mnt/<sd-card-partition>/server) and running the command "./../server.sh" (this should be don as a background process or in a seperate terminal instance using the screen command.
 2. Wait for the server to completely bootup and give a "Done" command.
 3. From the same directory as above, run the command "./../backdoor.sh". This should NOT be done as a background process or should be done in a seperate terminal window using screen.
 4. The Minecraft Text Chat will not have new features as outlined below
