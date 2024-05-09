@@ -37,13 +37,17 @@ public class CameraCommands implements CommandExecutor {
                 return false;
             }
 
-            //Eventually will need to change to path from the SD card
-            File picture = new File(Main.main.getDataFolder() + "//Pictures//" + args[0]);
-            if (!picture.exists()) {
-                player.sendMessage(ChatColor.RED + "[ZedCraft] File does not exist. Choose from below:");
+            if (args[0].compareTo("list") == 0) {
                 for (File file : Objects.requireNonNull(new File(Main.main.getDataFolder() + "//Pictures//").listFiles())) {
                     player.sendMessage(ChatColor.GOLD + file.getName());
                 }
+                return true;
+            }
+
+            //Eventually will need to change to path from the SD card
+            File picture = new File(Main.main.getDataFolder() + "//Pictures//" + args[0]);
+            if (!picture.exists()) {
+                player.sendMessage(ChatColor.RED + "[ZedCraft] File does not exist. Type: /picture list");
                 return true;
             }
 

@@ -1,0 +1,83 @@
+[23:01:29] [Server thread/INFO]: Starting minecraft server version 1.8
+[23:01:29] [Server thread/INFO]: Loading properties
+[23:01:29] [Server thread/INFO]: Default game type: SURVIVAL
+[23:01:29] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[23:01:29] [Server thread/INFO]: Debug logging is disabled
+[23:01:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[23:01:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:01:29] [Server thread/INFO]: Generating keypair
+[23:01:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:01:29] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[23:01:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[23:01:29] [Server thread/INFO]: [ZedCraftPlugin] Loading ZedCraftPlugin v1.0-SNAPSHOT
+[23:01:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:01:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:01:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:01:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:01:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[23:01:29] [Server thread/INFO]: Preparing level "world"
+[23:01:29] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:01:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:01:29] [Server thread/INFO]: Item Despawn Rate: 1200
+[23:01:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:01:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:01:29] [Server thread/INFO]: Mob Spawn Range: 4
+[23:01:29] [Server thread/INFO]: Anti X-Ray: false
+[23:01:29] [Server thread/INFO]: 	Engine Mode: 1
+[23:01:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:01:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:01:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:01:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:01:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:01:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:01:30] [Server thread/INFO]: Structure Info Saving: true
+[23:01:30] [Server thread/INFO]: Alternative Hopper Ticking: false
+[23:01:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:01:30] [Server thread/INFO]: Random Lighting Updates: false
+[23:01:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:01:30] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:01:30] [Server thread/INFO]: Max Entity Collisions: 8
+[23:01:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:01:30] [Server thread/INFO]: Max TNT Explosions: 100
+[23:01:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:01:30] [Server thread/INFO]: View Distance: 3
+[23:01:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:01:30] [Server thread/INFO]: Clear tick list: false
+[23:01:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:01:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2353021036038503996)
+[23:01:31] [Server thread/INFO]: Preparing spawn area: 13%
+[23:01:32] [Server thread/INFO]: Preparing spawn area: 29%
+[23:01:33] [Server thread/INFO]: Preparing spawn area: 52%
+[23:01:34] [Server thread/INFO]: Preparing spawn area: 75%
+[23:01:35] [Server thread/INFO]: [ZedCraftPlugin] Enabling ZedCraftPlugin v1.0-SNAPSHOT
+[23:01:35] [Server thread/INFO]: ZedCraft Server starting up...
+
+[23:01:35] [Server thread/INFO]: [ZedCraft] Blocks HashMap Populated.
+
+[23:01:35] [Server thread/INFO]: [ZedCraft] Boot success!
+
+[23:01:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:01:35] [Server thread/INFO]: Done (5.210s)! For help, type "help" or "?"
+[23:01:40] [User Authenticator #1/INFO]: UUID of player TboneJDI is e3e3b45c-7103-3a07-8b6b-3966397f6270
+[23:01:40] [Server thread/INFO]: TboneJDI[/127.0.0.1:54620] logged in with entity id 1627 at ([world] 30.5, 64.0, 251.5)
+[23:01:53] [Server thread/INFO]: TboneJDI issued server command: /time set 8000
+[23:01:53] [Server thread/INFO]: [TboneJDI: Set the time to 8000]
+[23:01:59] [Server thread/INFO]: TboneJDI issued server command: /time set 9000
+[23:01:59] [Server thread/INFO]: [TboneJDI: Set the time to 9000]
+[23:10:36] [Server thread/INFO]: TboneJDI lost connection: Disconnected
+[23:10:36] [Server thread/INFO]: TboneJDI left the game.
+[23:10:50] [Server thread/INFO]: Stopping the server
+[23:10:50] [Server thread/INFO]: Stopping server
+[23:10:50] [Server thread/INFO]: [ZedCraftPlugin] Disabling ZedCraftPlugin v1.0-SNAPSHOT
+[23:10:50] [Server thread/INFO]: [ZedCraft] Server shutting down...
+
+[23:10:50] [Server thread/INFO]: Saving players
+[23:10:50] [Server thread/INFO]: Saving worlds
+[23:10:50] [Server thread/INFO]: Saving chunks for level 'world'/Overworld

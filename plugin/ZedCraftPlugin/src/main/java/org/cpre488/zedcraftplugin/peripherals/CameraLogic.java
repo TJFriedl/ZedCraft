@@ -1,5 +1,6 @@
 package org.cpre488.zedcraftplugin.peripherals;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -55,14 +56,22 @@ public class CameraLogic {
         Location loc = player.getLocation();
 
         // CODE GO BRRRRRR
+        long start = System.nanoTime();
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 BlockData block = CameraLogic.findClosestBlock(image.getRGB(x, y));
-                Location blockLocation = new Location(player.getWorld(), loc.getBlockX()+x, loc.getBlockY()+(height-y), loc.getBlockZ());
+                Location blockLocation = new Location(player.getWorld(), loc.getBlockX()+x,
+                        loc.getBlockY()+(height-y-1), loc.getBlockZ());
                 blockLocation.getBlock().setType(Material.valueOf(block.getMaterialName()));
                 blockLocation.getBlock().setData((byte) block.getMetaData());
             }
         }
+        long end = System.nanoTime();
+        double executionT = (double) (end - start) / 1000000;
+        String number = String.format("%.3f", executionT);
+        double executionTime = Double.parseDouble(number);
+        player.sendMessage("Execution time for " + ChatColor.GOLD + imageName + ChatColor.RESET + ": (" +
+                width + "x" + height + " pixels) " + executionTime + "ms");
     }
 
 }
